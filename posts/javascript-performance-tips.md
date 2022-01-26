@@ -1,6 +1,6 @@
 ---
 title: "JavaScript Performance Tips"
-date: 2022-01-23
+date: "2022-01-23"
 excerpt: "We will look at 10 simple tips and tricks to increase the speed of your code when writing JS"
 category: "JavaScript"
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Python Book Review"
-date: 2022-01-19
+date: "2022-01-19"
 excerpt: "In this review, we will be looking at the new Python book from Oriley"
 category: "Python"
 ---

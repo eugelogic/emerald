@@ -1,6 +1,6 @@
 ---
 title: "Django Crash Course"
-date: 2022-01-25
+date: "2022-01-25"
 excerpt: "Django is a very powerful, high level Python framework for building web applications"
 category: "Python"
 ---
