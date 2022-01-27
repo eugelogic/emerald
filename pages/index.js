@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import PostItem from '../components/PostItem'
 
 export const getStaticProps = async () => {
 
@@ -29,12 +30,10 @@ const Home = ({ posts }) => {
 
   return (
     <div>
-        <h1>Hello World</h1>
+        <h1>Eugene Molari Dev</h1>
         <ul>
         {posts?.length > 0 && posts.map((post, index) => (
-          <li key={index}>
-            {post.frontmatter.title}
-          </li>
+          <PostItem key={index} post={post} />
         ))}
         </ul>
     </div>
