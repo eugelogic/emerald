@@ -13,7 +13,7 @@ const PostItem = ({ post }) => {
                 </a>
             </Link>
             <p style={{ margin: '0' }}>{post.frontmatter.excerpt}</p>
-            {/* <time dateTime={post.frontmatter.date}>{post.frontmatter.date}</time> */}
+            <time dateTime={post.frontmatter.date}>{post.frontmatter.date}</time>
         </li>
     )
 }
