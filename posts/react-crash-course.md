@@ -1,8 +1,8 @@
 ---
-title: "React Crash Course"
-date: "2022-01-27"
-excerpt: "Crash course to learn the React JavaScript library. We will look at components, hooks and more"
-category: "JavaScript"
+title: 'React Crash Course'
+date: '2022-01-27'
+excerpt: 'Crash course to learn the React JavaScript library. We will look at components, hooks and more'
+category: 'JavaScript'
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

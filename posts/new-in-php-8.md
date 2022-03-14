@@ -1,8 +1,8 @@
 ---
 title: "What's New In PHP 8?"
-date: "2022-01-03"
-excerpt: "In this article we will look at some of the new features offered in version 8 of PHP"
-category: "PHP"
+date: '2022-01-03'
+excerpt: 'In this article we will look at some of the new features offered in version 8 of PHP'
+category: 'PHP'
 ---
 
 Lorem markdownum erat meritum instat quis! Parari vera harundinibus molibus nam

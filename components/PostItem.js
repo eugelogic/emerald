@@ -2,10 +2,12 @@ import Link from 'next/link'
 
 const PostItem = ({ post }) => {
     return (
-        <li style={{
-            marginBottom: '1rem',
-            listStyle: 'none'
-            }}>
+        <li
+            style={{
+                marginBottom: '1rem',
+                listStyle: 'none',
+            }}
+        >
             <span>{post.frontmatter.category}</span>
             <Link href={`/blog/${post.slug}`}>
                 <a>

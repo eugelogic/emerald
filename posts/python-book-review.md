@@ -1,8 +1,8 @@
 ---
-title: "Python Book Review"
-date: "2022-01-09"
-excerpt: "In this review, we will be looking at the new Python book from Oriley"
-category: "Python"
+title: 'Python Book Review'
+date: '2022-01-09'
+excerpt: 'In this review, we will be looking at the new Python book from Oriley'
+category: 'Python'
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

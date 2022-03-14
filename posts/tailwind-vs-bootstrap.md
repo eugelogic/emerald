@@ -1,8 +1,8 @@
 ---
-title: "Tailwind vs Bootstrap"
-date: "2022-01-23"
-excerpt: "Both Tailwind and Bootstrap are very popular CSS frameworks. In this article, we will compare them"
-category: "CSS"
+title: 'Tailwind vs Bootstrap'
+date: '2022-01-23'
+excerpt: 'Both Tailwind and Bootstrap are very popular CSS frameworks. In this article, we will compare them'
+category: 'CSS'
 ---
 
 Lorem markdownum fine incustoditam unda factura versum occuluere Aeneas, iuvat

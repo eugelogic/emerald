@@ -1,8 +1,8 @@
 ---
-title: "Writing Great Unit Tests"
-date: "2022-01-15"
-excerpt: "We will look at 10 simple tips and tricks on writing unit tests in JavaScript"
-category: "JavaScript"
+title: 'Writing Great Unit Tests'
+date: '2022-01-15'
+excerpt: 'We will look at 10 simple tips and tricks on writing unit tests in JavaScript'
+category: 'JavaScript'
 ---
 
 Lorem [markdownum](http://insunt.org/inpositaque), et sanguine rutilos dixit
@@ -45,9 +45,9 @@ _Memini isto hostilia_ Aeneas, in ponto **nova eventu cetera** iugum animam
 ille, viro, nec. Loquendi aves insisto saecula premente nec, at ego poscit ubi
 sub!
 
-- Tristis natorum ora talia patriis famae naidas
-- Deus scilicet male miliaque noctisque invenio Nilum
-- Efficerentque devexaque foret haec leve ab fertilis
+-   Tristis natorum ora talia patriis famae naidas
+-   Deus scilicet male miliaque noctisque invenio Nilum
+-   Efficerentque devexaque foret haec leve ab fertilis
 
 Institerat quantum facies parientem, crepitantis nondum. Atque atris arcebat
 factis nil Lucina mori sinu est partibus specie, imo interea tellus luctu
