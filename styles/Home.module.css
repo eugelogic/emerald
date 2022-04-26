@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+.box {
+    outline: 0.5px solid black;
+}
+.topLeft {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+.topHalf {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.bottomHalf {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.firstFourthSquares {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
