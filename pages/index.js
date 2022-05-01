@@ -1,6 +1,13 @@
 import styles from '../styles/Home.module.css'
+import Quotes from '../public/quotes.json'
 
 const Home = () => {
+    function randomItemFromArray(arr) {
+        const item = arr[Math.floor(Math.random() * arr.length)]
+        return item
+    }
+    const randomQuote = randomItemFromArray(Quotes)
+
     return (
         <div className={styles.container}>
             <div className={`${styles.box} ${styles.topLeft}`}>
@@ -23,7 +30,10 @@ const Home = () => {
 
             <div className={`${styles.box} ${styles.topRight}`}>Two</div>
 
-            <div className={`${styles.box} ${styles.bottomLeft}`}>Three</div>
+            <div className={`${styles.box} ${styles.bottomLeft}`}>
+                Three
+                <p>{randomQuote.text}</p>
+            </div>
 
             <div className={`${styles.box} ${styles.bottomRight}`}>Four</div>
         </div>
