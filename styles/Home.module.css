@@ -1,13 +1,27 @@
 .box {
     outline: 0.5px solid #d9d9d9;
 }
+.lttr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+.lttr h1 {
+    margin: 0 0 0.5rem;
+}
+.lttr h2 {
+    margin: 0.5rem 0 0;
+}
 .ltbr {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
     text-align: center;
+    padding: 1rem;
 }
 .ltbr p {
     margin: 0.5rem;

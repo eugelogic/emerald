@@ -29,7 +29,10 @@ const Home = () => {
                             <div className={styles.box}>I</div>
                             <div className={styles.box}>T</div>
                         </div>
-                        <div className={`${styles.box} ${styles.lttr}`}>Eugene</div>
+                        <div className={`${styles.box} ${styles.lttr}`}>
+                            <h1>Eugene Molari</h1>
+                            <h2>Product Designer</h2>
+                        </div>
                     </div>
                     <div className={`${styles.box} ${styles.ltb}`}>
                         <div className={`${styles.box} ${styles.ltbl}`}>
