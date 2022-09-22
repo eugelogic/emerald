@@ -30,8 +30,14 @@
     text-align: center;
     padding: 1rem;
 }
-.ltbr p {
-    margin: 0.5rem;
+.ltbr figure {
+    margin: 1rem;
+}
+.ltbr q {
+    font-size: 1.5rem;
+}
+.ltbr figcaption {
+    margin-top: 0.5rem;
 }
 .mobile,
 .ltbl {

@@ -78,8 +78,10 @@ const Home = () => {
                             />
                         </div>
                         <div className={`${styles.box} ${styles.ltbr}`}>
-                            <p>“{randomQuote.text}”</p>
-                            <p>• {randomQuote.author}</p>
+                            <figure>
+                                <q>{randomQuote.text}</q>
+                                <figcaption>- {randomQuote.author}</figcaption>
+                            </figure>
                         </div>
                     </div>
                 </div>
