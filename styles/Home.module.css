@@ -43,6 +43,23 @@
 .ltbl img {
     width: 100%;
 }
+.lbl,
+.lbr,
+.rrt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+.lbl,
+.rrt {
+    margin-top: 0;
+}
+.lbr {
+    margin-bottom: 0;
+}
 @media (width < 450px) {
     .ltt {
         display: grid;

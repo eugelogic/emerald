@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Quotes from '../public/quotes.json'
@@ -83,15 +84,41 @@ const Home = () => {
                     </div>
                 </div>
                 <div className={`${styles.box} ${styles.lb}`}>
-                    <div className={`${styles.box} ${styles.lbl}`}>Work</div>
-                    <div className={`${styles.box} ${styles.lbr}`}>Reviews</div>
+                    <div className={`${styles.box} ${styles.lbl}`}>
+                        <Link href="/work">
+                            <a>
+                                <h2>Work</h2>
+                                <Image src="/mous-block-man.jpg" alt="Mous Block Management" width={600} height={420} />
+                            </a>
+                        </Link>
+                    </div>
+                    <div className={`${styles.box} ${styles.lbr}`}>
+                        <Link href="/reviews">
+                            <a>
+                                <Image
+                                    src="/tigermarketing-co-uk.jpg"
+                                    alt="tigermarketing.co.uk"
+                                    width={600}
+                                    height={436}
+                                />
+                                <h2>Reviews</h2>
+                            </a>
+                        </Link>
+                    </div>
                 </div>
             </div>
 
             <div className={`${styles.box} ${styles.r}`}>
                 <div className={`${styles.box} ${styles.rl}`}>Chirps</div>
                 <div className={`${styles.box} ${styles.rr}`}>
-                    <div className={`${styles.box} ${styles.rrt}`}>Playground</div>
+                    <div className={`${styles.box} ${styles.rrt}`}>
+                        <Link href="/playground">
+                            <a>
+                                <h2>Playground</h2>
+                                <Image src="/whats-your-type.jpg" alt="What's your type" width={600} height={451} />
+                            </a>
+                        </Link>
+                    </div>
                     <div className={`${styles.box} ${styles.rrb}`}>People</div>
                 </div>
             </div>
