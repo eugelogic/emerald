@@ -10,32 +10,39 @@ const Home = () => {
 
     return (
         <div className={styles.container}>
-            <div className={`${styles.box} ${styles.topLeft}`}>
-                <div className={`${styles.box} ${styles.topHalf}`}>
-                    <div className={`${styles.box} ${styles.firstFourthSquares}`}>
-                        <div className={`${styles.box} ${styles.topLeftSquare}`}>TLS</div>
-                        <div className={`${styles.box} ${styles.topRightSquare}`}>TRS</div>
-                        <div className={`${styles.box} ${styles.bottomLeftSquare}`}>BLS</div>
-                        <div className={`${styles.box} ${styles.bottomRightSquare}`}>BRS</div>
+            <div className={`${styles.box} ${styles.l}`}>
+                <div className={`${styles.box} ${styles.lt}`}>
+                    <div className={`${styles.box} ${styles.ltt}`}>
+                        <div className={`${styles.box} ${styles.lttl}`}>
+                            <div className={`${styles.box} ${styles.mobile}`}>PIC</div>
+                            <div className={styles.box}>M</div>
+                            <div className={styles.box}>S</div>
+                            <div className={styles.box}>I</div>
+                            <div className={styles.box}>T</div>
+                        </div>
+                        <div className={`${styles.box} ${styles.lttr}`}>Eugene</div>
                     </div>
-                    <div className={`${styles.box} ${styles.middleFourth}`}>MF</div>
-                    <div className={`${styles.box} ${styles.lastFourth}`}>LF</div>
+                    <div className={`${styles.box} ${styles.ltb}`}>
+                        <div className={`${styles.box} ${styles.ltbl}`}>PIC</div>
+                        <div className={`${styles.box} ${styles.ltbr}`}>
+                            <p>“{randomQuote.text}”</p>
+                            <p>• {randomQuote.author}</p>
+                        </div>
+                    </div>
                 </div>
-
-                <div className={`${styles.box} ${styles.bottomHalf}`}>
-                    <div className={`${styles.box} ${styles.firstFourth}`}>FF</div>
-                    <div className={`${styles.box} ${styles.ltbr}`}>
-                        <p>“{randomQuote.text}”</p>
-                        <p>• {randomQuote.author}</p>
-                    </div>
+                <div className={`${styles.box} ${styles.lb}`}>
+                    <div className={`${styles.box} ${styles.lbl}`}>Work</div>
+                    <div className={`${styles.box} ${styles.lbr}`}>Reviews</div>
                 </div>
             </div>
 
-            <div className={`${styles.box} ${styles.topRight}`}>Two</div>
-
-            <div className={`${styles.box} ${styles.bottomLeft}`}>Three</div>
-
-            <div className={`${styles.box} ${styles.bottomRight}`}>Four</div>
+            <div className={`${styles.box} ${styles.r}`}>
+                <div className={`${styles.box} ${styles.rl}`}>Chirps</div>
+                <div className={`${styles.box} ${styles.rr}`}>
+                    <div className={`${styles.box} ${styles.rrt}`}>Playground</div>
+                    <div className={`${styles.box} ${styles.rrb}`}>People</div>
+                </div>
+            </div>
         </div>
     )
 }
