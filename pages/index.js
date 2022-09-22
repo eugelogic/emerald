@@ -24,7 +24,7 @@ const Home = () => {
 
                 <div className={`${styles.box} ${styles.bottomHalf}`}>
                     <div className={`${styles.box} ${styles.firstFourth}`}>FF</div>
-                    <div className={`${styles.box} ${styles.remainderFourth}`}>
+                    <div className={`${styles.box} ${styles.ltbr}`}>
                         <p>“{randomQuote.text}”</p>
                         <p>• {randomQuote.author}</p>
                     </div>
