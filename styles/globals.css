@@ -1,7 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 html,
 body {
     padding: 0;
     margin: 0;
+    background-color: #1e1e1e;
+    color: white;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
         Helvetica Neue, sans-serif;
 }
@@ -9,8 +15,4 @@ body {
 a {
     color: inherit;
     text-decoration: none;
-}
-
-* {
-    box-sizing: border-box;
 }

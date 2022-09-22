@@ -5,7 +5,7 @@
     grid-template-rows: 50% 50%;
 }
 .box {
-    outline: 0.5px solid black;
+    outline: 0.5px solid #d9d9d9;
 }
 .topLeft {
     display: grid;
