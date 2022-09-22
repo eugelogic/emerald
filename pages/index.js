@@ -24,16 +24,16 @@ const Home = () => {
 
                 <div className={`${styles.box} ${styles.bottomHalf}`}>
                     <div className={`${styles.box} ${styles.firstFourth}`}>FF</div>
-                    <div className={`${styles.box} ${styles.remainderFourth}`}>MF</div>
+                    <div className={`${styles.box} ${styles.remainderFourth}`}>
+                        <p>“{randomQuote.text}”</p>
+                        <p>• {randomQuote.author}</p>
+                    </div>
                 </div>
             </div>
 
             <div className={`${styles.box} ${styles.topRight}`}>Two</div>
 
-            <div className={`${styles.box} ${styles.bottomLeft}`}>
-                Three
-                <p>{randomQuote.text}</p>
-            </div>
+            <div className={`${styles.box} ${styles.bottomLeft}`}>Three</div>
 
             <div className={`${styles.box} ${styles.bottomRight}`}>Four</div>
         </div>

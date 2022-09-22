@@ -1,10 +1,10 @@
 [
-    { "id": 1, "text": "white" },
-    { "id": 2, "text": "blue" },
-    { "id": 3, "text": "red" },
-    { "id": 4, "text": "black" },
-    { "id": 5, "text": "green" },
-    { "id": 6, "text": "orange" },
-    { "id": 7, "text": "brown" },
-    { "id": 8, "text": "pink" }
+    { "id": 1, "text": "Immagination is more important than knowledge.", "author": "Albert Einstein" },
+    { "id": 2, "text": "Even a broken clock is right, twice a day.", "author": "Someone" },
+    { "id": 3, "text": "If it ain’t broke, don’t fix it.", "author": "Bert Lance" },
+    { "id": 4, "text": "Work smarter, not harder.", "author": "Allen F Morgenstern" },
+    { "id": 5, "text": "It always seems impossible until it's done.", "author": "Nelson Mandela" },
+    { "id": 6, "text": "Always be yourself, everyone else is taken.", "author": "Oscar Wilde" },
+    { "id": 7, "text": "Fail early, fail often, but always fail forward.", "author": "John C Maxwell" },
+    { "id": 8, "text": "You got to have things to look forward to.", "author": "Someone" }
 ]
