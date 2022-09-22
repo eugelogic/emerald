@@ -17,13 +17,7 @@ const Home = () => {
                     <div className={`${styles.box} ${styles.ltt}`}>
                         <div className={`${styles.box} ${styles.lttl}`}>
                             <div className={`${styles.box} ${styles.mobile}`}>
-                                <Image
-                                    src="/eugene-molari.jpg"
-                                    alt="Eugene Molari"
-                                    width={542}
-                                    height={542}
-                                    layout="fill"
-                                />
+                                <Image src="/eugene-molari.jpg" alt="Eugene Molari" layout="fill" />
                             </div>
                             <div className={`${styles.box} ${styles.smallTileOne}`}>M</div>
                             <div className={`${styles.box} ${styles.smallTileTwo}`}>
@@ -69,13 +63,7 @@ const Home = () => {
                     </div>
                     <div className={`${styles.box} ${styles.ltb}`}>
                         <div className={`${styles.box} ${styles.ltbl}`}>
-                            <Image
-                                src="/eugene-molari.jpg"
-                                alt="Eugene Molari"
-                                width={542}
-                                height={542}
-                                layout="fill"
-                            />
+                            <Image src="/eugene-molari.jpg" alt="Eugene Molari" layout="fill" />
                         </div>
                         <div className={`${styles.box} ${styles.ltbr}`}>
                             <figure>
