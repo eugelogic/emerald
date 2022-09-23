@@ -20,7 +20,15 @@ const Home = () => {
                             <div className={`${styles.box} ${styles.mobile}`}>
                                 <Image src="/eugene-molari.jpg" alt="Eugene Molari" layout="fill" />
                             </div>
-                            <div className={`${styles.box} ${styles.smallTileOne}`}>M</div>
+                            <div className={`${styles.box} ${styles.smallTileOne}`}>
+                                <Link href="/menu">
+                                    <a>
+                                        ME
+                                        <br />
+                                        NU
+                                    </a>
+                                </Link>
+                            </div>
                             <div className={`${styles.box} ${styles.smallTileTwo}`}>
                                 <a href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener">
                                     <svg width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">

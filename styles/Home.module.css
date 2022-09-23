@@ -8,6 +8,10 @@
     display: grid;
     place-items: center;
 }
+.smallTileOne a {
+    line-height: 0.8;
+    font-size: 1.25rem;
+}
 .lttr {
     display: flex;
     flex-direction: column;

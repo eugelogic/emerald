@@ -1,0 +1,23 @@
+.backButton {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.navHack ul {
+    list-style: none;
+    padding: 0;
+}
+.navHack ul li {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.navHack ul li a {
+    font-size: 12vw;
+}
+@media (min-width: 510px) {
+    .navHack ul li a {
+        font-size: 3.75rem;
+    }
+}
