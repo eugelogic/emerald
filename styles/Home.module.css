@@ -13,7 +13,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
     padding: 1rem;
 }
 .lttr h1 {
@@ -25,7 +24,6 @@
 .ltbr {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
     padding: 1rem;
@@ -54,7 +52,6 @@
 .rrt {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     text-align: center;
     padding: 2rem;
