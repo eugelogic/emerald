@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import PostItem from '../components/PostItem'
+import Header from '../components/Header'
 import { sortByDate } from '../utils'
 
 export const getStaticProps = async () => {
@@ -28,6 +29,7 @@ export const getStaticProps = async () => {
 const Blog = ({ posts }) => {
     return (
         <div>
+            <Header />
             <h1>Blog</h1>
             <ul>{posts?.length > 0 && posts.map((post, index) => <PostItem key={index} post={post} />)}</ul>
         </div>

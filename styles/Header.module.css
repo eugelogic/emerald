@@ -1,0 +1,77 @@
+.header {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.box,
+.textBox {
+    outline: 0.5px solid #d9d9d9;
+}
+.textBox {
+    grid-column: 1/9;
+    grid-row: 1/2;
+    padding: 1rem 0;
+}
+.textBox a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.siteTitle {
+    font-size: 2rem;
+}
+.siteDescription {
+    text-transform: uppercase;
+}
+.tl,
+.bl,
+.tr,
+.br {
+    display: grid;
+    place-items: center;
+}
+.tl {
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+.bl {
+    grid-column: 3/5;
+    grid-row: 2/3;
+}
+.tr {
+    grid-column: 7/9;
+    grid-row: 2/3;
+}
+.tr a {
+    line-height: 0.8;
+    font-size: 1.25rem;
+}
+.br {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+@media (min-width: 450px) {
+    .tl {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .bl {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .textBox {
+        grid-column: 2/8;
+        grid-row: 1/3;
+        min-height: inherit;
+        padding: 3rem 0;
+    }
+    .tr {
+        grid-column: 8/9;
+        grid-row: 1/2;
+    }
+    .br {
+        grid-column: 8/9;
+        grid-row: 2/3;
+    }
+}
