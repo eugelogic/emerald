@@ -1,0 +1,9 @@
+.footer {
+    min-height: 5rem;
+    display: grid;
+    place-items: center;
+}
+.footer span {
+    border-top: 1px solid white;
+    padding-top: 0.5rem;
+}
