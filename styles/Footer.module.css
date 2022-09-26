@@ -1,4 +1,6 @@
 .footer {
+    margin: 0 auto;
+    max-width: 45rem;
     min-height: 5rem;
     display: grid;
     place-items: center;
