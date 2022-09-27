@@ -17,3 +17,10 @@ a {
 p {
     font-size: 1.125rem;
 }
+p a {
+    text-decoration: underline;
+}
+p a:hover {
+    color: #1e1e1e;
+    background-color: yellow;
+}

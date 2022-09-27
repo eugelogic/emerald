@@ -1,0 +1,78 @@
+.container {
+    background: silver;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 25vw;
+    color: black;
+    margin: 0;
+}
+@media (min-width: 30rem) {
+    .text {
+        font-size: 15vh;
+    }
+}
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.wUp {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+.h {
+    font-family: 'Tangerine', cursive;
+    letter-spacing: 5px;
+}
+.a {
+    font-family: 'Gochi Hand', cursive;
+    color: yellow;
+}
+.t {
+    font-family: 'Tourney', cursive;
+}
+.apo {
+    font-family: 'Rye', cursive;
+    color: fuchsia;
+}
+.s {
+    font-family: 'Courier Prime', monospace;
+}
+.yUp {
+    font-family: 'Megrim', cursive;
+    letter-spacing: 5px;
+    color: fuchsia;
+}
+.o {
+    font-family: 'Press Start 2P', cursive;
+}
+.u {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+.r {
+    font-family: 'Palette Mosaic', cursive;
+}
+.tUp {
+    font-family: 'Bungee Shade', cursive;
+}
+.y {
+    font-family: 'Indie Flower', cursive;
+    color: yellow;
+}
+.p {
+    font-family: 'Baumans', cursive;
+}
+.e {
+    font-family: 'Emilys Candy', cursive;
+}
+.qm {
+    font-family: 'Original Surfer', cursive;
+    color: fuchsia;
+}
