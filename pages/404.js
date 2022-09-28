@@ -7,10 +7,20 @@ const PageNotFound = () => {
         <Layout>
             <div className={styles.container}>
                 <h1>Page Not Found</h1>
-                <p>Sorry we can&apos;t seem to find the content you are looking for.</p>
+                <p>Sorry I can&apos;t seem to find the content you are looking for.</p>
+                <p>One of the following must have happened:</p>
+                <ul>
+                    <li>the link of the page has been altered</li>
+                    <li>I removed the page</li>
+                    <li>you have been tinckering with the slug</li>
+                    <li>the page never existed</li>
+                    <li>I made the content of the page private</li>
+                    <li>someone has hacked my website 😱</li>
+                </ul>
                 <p>
+                    Regardless, you might consider{' '}
                     <Link href="/">
-                        <a>Go back to the homepage &rarr;</a>
+                        <a>going back to the homepage &rarr;</a>
                     </Link>
                 </p>
             </div>
