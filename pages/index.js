@@ -15,10 +15,10 @@ const Home = () => {
     return (
         <>
             <Head>
-                <link rel="icon" href="./favicon.ico" />
-                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <title>Eugene Molari Digital - Product Designer</title>
                 <meta name="description" content="Product Designer" />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <link rel="icon" href="./favicon.ico" />
             </Head>
             <main>
                 <div className={styles.container}>

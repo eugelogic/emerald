@@ -1,10 +1,11 @@
 /* eslint-disable */
+import LayoutPlayEntry from '../../../components/LayoutPlayEntry'
 import Head from 'next/head'
 import styles from './whats-your-type.module.css'
 
 const WhatsYourType = () => {
     return (
-        <>
+        <LayoutPlayEntry title="What's Your Type">
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
@@ -182,7 +183,7 @@ const WhatsYourType = () => {
                     </span>
                 </h1>
             </div>
-        </>
+        </LayoutPlayEntry>
     )
 }
 
