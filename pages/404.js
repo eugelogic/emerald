@@ -4,7 +4,7 @@ import styles from '../styles/404.module.css'
 
 const PageNotFound = () => {
     return (
-        <Layout>
+        <Layout title="Page Not Found">
             <div className={styles.container}>
                 <h1>Page Not Found</h1>
                 <p>Sorry I can&apos;t seem to find the content you are looking for.</p>

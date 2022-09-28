@@ -29,7 +29,7 @@ export const getStaticProps = async () => {
 
 const Blog = ({ posts }) => {
     return (
-        <Layout>
+        <Layout title="Blog">
             <div className={styles.container}>
                 <h1>Blog</h1>
                 <p>

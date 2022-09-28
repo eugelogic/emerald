@@ -4,7 +4,7 @@ import styles from '../styles/Playground.module.css'
 
 const Playground = () => {
     return (
-        <Layout>
+        <Layout title="Playground">
             <div className={styles.container}>
                 <h1>Playground</h1>
                 <p>
