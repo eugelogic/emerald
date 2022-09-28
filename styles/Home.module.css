@@ -147,7 +147,7 @@
     }
 }
 @media (min-width: 900px) {
-    .container {
+    .containerHome {
         height: 100vh;
         display: grid;
         grid-template-columns: 50% 50%;

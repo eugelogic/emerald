@@ -21,7 +21,7 @@ const Home = () => {
                 <link rel="icon" href="./favicon.ico" />
             </Head>
             <main>
-                <div className={styles.container}>
+                <div className={styles.containerHome}>
                     <div className={`${styles.box} ${styles.l}`}>
                         <div className={`${styles.box} ${styles.lt}`}>
                             <div className={`${styles.box} ${styles.ltt}`}>

@@ -1,10 +1,9 @@
 import Layout from '../components/Layout'
-import styles from '../styles/About.module.css'
 
 const About = () => {
     return (
         <Layout title="About">
-            <div className={styles.container}>
+            <div className="container">
                 <h1>About</h1>
                 <ul>
                     <li>Short story</li>

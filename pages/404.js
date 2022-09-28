@@ -1,11 +1,10 @@
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import styles from '../styles/404.module.css'
 
 const PageNotFound = () => {
     return (
         <Layout title="Page Not Found">
-            <div className={styles.container}>
+            <div className="container">
                 <h1>Page Not Found</h1>
                 <p>Sorry I can&apos;t seem to find the content you are looking for.</p>
                 <p>One of the following must have happened:</p>

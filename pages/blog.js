@@ -4,7 +4,6 @@ import matter from 'gray-matter'
 import PostItem from '../components/PostItem'
 import Layout from '../components/Layout'
 import { sortByDate } from '../utils'
-import styles from '../styles/Blog.module.css'
 
 export const getStaticProps = async () => {
     const files = fs.readdirSync(path.join('posts'))
@@ -30,7 +29,7 @@ export const getStaticProps = async () => {
 const Blog = ({ posts }) => {
     return (
         <Layout title="Blog">
-            <div className={styles.container}>
+            <div className="container">
                 <h1>Blog</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
