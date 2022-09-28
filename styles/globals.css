@@ -15,7 +15,8 @@ a {
     text-decoration: none;
 }
 p,
-ul li {
+ul li,
+ol li {
     font-size: 1.125rem;
 }
 p a {
@@ -24,4 +25,11 @@ p a {
 p a:hover {
     color: #1e1e1e;
     background-color: yellow;
+}
+pre {
+    background-color: #494949;
+    padding: 0.5rem;
+}
+code {
+    font-size: 1rem;
 }
