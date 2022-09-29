@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/PlayEntry.module.css'
+import styles from '../styles/PlayItem.module.css'
 
-const PlayEntry = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, title, children }) => {
+const PlayItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, title, children }) => {
     return (
         <li className={styles.listItem}>
             <Link href={`/playground/${slug}`}>
@@ -16,4 +16,4 @@ const PlayEntry = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, title, c
     )
 }
 
-export default PlayEntry
+export default PlayItem

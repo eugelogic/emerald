@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Quotes from '../public/quotes.json'
-import PeopleEntry from '../components/PeopleEntry'
+import PeopleItem from '../components/PeopleItem'
 
 const Home = () => {
     function randomItemFromArray(arr) {
@@ -147,15 +147,15 @@ const Home = () => {
                             </div>
                             <div className={`${styles.box} ${styles.rrb}`}>
                                 <h2>Awesome People</h2>
-                                <ul className={styles.peopleEntryList}>
-                                    <PeopleEntry name="Femke" link="https://keepo.io/femke/" src="/femke.jpg" />
-                                    <PeopleEntry
+                                <ul className={styles.PeopleItemList}>
+                                    <PeopleItem name="Femke" link="https://keepo.io/femke/" src="/femke.jpg" />
+                                    <PeopleItem
                                         name="Jakob Nielsen"
                                         link="https://www.nngroup.com/people/jakob-nielsen/"
                                         src="/jakob-nielsen.jpg"
                                     />
-                                    <PeopleEntry name="Wes Bos" link="https://wesbos.com/" src="/wes-bos.jpg" />
-                                    <PeopleEntry
+                                    <PeopleItem name="Wes Bos" link="https://wesbos.com/" src="/wes-bos.jpg" />
+                                    <PeopleItem
                                         name="Pablo Stanley"
                                         link="https://www.instagram.com/pablostanley/"
                                         src="/pablo-stanley.jpg"

@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-import PlayEntry from '../components/PlayEntry'
+import PlayItem from '../components/PlayItem'
 import styles from '../styles/Playground.module.css'
 
 const Playground = () => {
@@ -22,7 +22,7 @@ const Playground = () => {
                 </p>
                 <p>I get inspired by magazines, architecture, music, fashion, art and industrial design.</p>
                 <ul className={styles.playgroundList}>
-                    <PlayEntry
+                    <PlayItem
                         slug="whats-your-type"
                         imageSrc="/whats-your-type.jpg"
                         imageAlt="whats-your-type"
@@ -45,8 +45,8 @@ const Playground = () => {
                             </a>
                             . If you curious, click each letter to learn what font I used.
                         </p>
-                    </PlayEntry>
-                    <PlayEntry
+                    </PlayItem>
+                    <PlayItem
                         slug="whats-your-type"
                         imageSrc="/whats-your-type.jpg"
                         imageAlt="whats-your-type"
@@ -64,7 +64,7 @@ const Playground = () => {
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                         </p>
-                    </PlayEntry>
+                    </PlayItem>
                 </ul>
             </div>
         </Layout>

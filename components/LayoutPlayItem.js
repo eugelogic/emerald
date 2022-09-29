@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-const LayoutPlayEntry = ({ title, children }) => {
+const LayoutPlayItem = ({ title, children }) => {
     return (
         <>
             <Head>
@@ -14,4 +14,4 @@ const LayoutPlayEntry = ({ title, children }) => {
     )
 }
 
-export default LayoutPlayEntry
+export default LayoutPlayItem

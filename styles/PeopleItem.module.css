@@ -1,14 +1,14 @@
-.peopleEntryStripe {
+.PeopleItemStripe {
     margin-bottom: 0.5rem;
 }
-.peopleEntryStripe a span img {
+.PeopleItemStripe a span img {
     filter: saturate(0);
     border-radius: 50%;
 }
-.peopleEntryStripe a {
+.PeopleItemStripe a {
     display: flex;
     align-items: center;
 }
-.peopleEntryStripe > a span:nth-child(2) {
+.PeopleItemStripe > a span:nth-child(2) {
     margin-left: 1rem;
 }
