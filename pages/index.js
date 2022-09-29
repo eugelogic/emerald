@@ -1,9 +1,10 @@
+import Quotes from '../public/quotes.json'
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Quotes from '../public/quotes.json'
+import ChirpItem from '../components/ChirpItem'
 import PeopleItem from '../components/PeopleItem'
+import styles from '../styles/Home.module.css'
 
 const Home = () => {
     function randomItemFromArray(arr) {
@@ -130,7 +131,63 @@ const Home = () => {
                     </div>
 
                     <div className={`${styles.box} ${styles.r}`}>
-                        <div className={`${styles.box} ${styles.rl}`}>Chirps</div>
+                        <div className={`${styles.box} ${styles.rl}`}>
+                            <Link href="/chirps">
+                                <a>
+                                    <h2>Chirps</h2>
+                                </a>
+                            </Link>
+                            <ul className="indexList">
+                                <ChirpItem
+                                    date="2022-09-27"
+                                    tweetted={true}
+                                    tweetLink="https://twitter.com/EugeneMolari/status/1574864898122711040"
+                                >
+                                    <p>
+                                        When I take a look at a new website, there is something I always check, it’s the
+                                        copyright year at the bottom of the page. If it’s not up to date I cry. I wonder
+                                        how that is possible in this day and age of web frameworks which do everything
+                                        automagically for you.
+                                    </p>{' '}
+                                    <p>
+                                        I personally use <code>`new Date().getFullYear()`</code> to make sure it&apos;s
+                                        always up to date.
+                                    </p>
+                                </ChirpItem>
+                                <ChirpItem
+                                    date="2022-09-27"
+                                    tweetted={true}
+                                    tweetLink="https://twitter.com/EugeneMolari/status/1574864898122711040"
+                                >
+                                    <p>
+                                        When I take a look at a new website, there is something I always check, it’s the
+                                        copyright year at the bottom of the page. If it’s not up to date I cry. I wonder
+                                        how that is possible in this day and age of web frameworks which do everything
+                                        automagically for you.
+                                    </p>{' '}
+                                    <p>
+                                        I personally use <code>`new Date().getFullYear()`</code> to make sure it&apos;s
+                                        always up to date.
+                                    </p>
+                                </ChirpItem>
+                                <ChirpItem
+                                    date="2022-09-27"
+                                    tweetted={true}
+                                    tweetLink="https://twitter.com/EugeneMolari/status/1574864898122711040"
+                                >
+                                    <p>
+                                        When I take a look at a new website, there is something I always check, it’s the
+                                        copyright year at the bottom of the page. If it’s not up to date I cry. I wonder
+                                        how that is possible in this day and age of web frameworks which do everything
+                                        automagically for you.
+                                    </p>{' '}
+                                    <p>
+                                        I personally use <code>`new Date().getFullYear()`</code> to make sure it&apos;s
+                                        always up to date.
+                                    </p>
+                                </ChirpItem>
+                            </ul>
+                        </div>
                         <div className={`${styles.box} ${styles.rr}`}>
                             <div className={`${styles.box} ${styles.rrt}`}>
                                 <Link href="/playground">
