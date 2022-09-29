@@ -3,7 +3,7 @@ import styles from '../styles/PeopleItem.module.css'
 
 const PeopleItem = ({ src, link, name }) => {
     return (
-        <li className={styles.PeopleItemStripe}>
+        <li className={styles.peopleItemStripe}>
             <a href={link} target="_blank" rel="noreferrer noopener">
                 <Image src={src} alt={name} width={40} height={40} />
                 <span>{name}</span>
