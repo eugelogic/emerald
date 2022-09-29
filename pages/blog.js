@@ -38,7 +38,9 @@ const Blog = ({ posts }) => {
                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <ul>{posts?.length > 0 && posts.map((post, index) => <PostItem key={index} post={post} />)}</ul>
+                <ul className="indexList">
+                    {posts?.length > 0 && posts.map((post, index) => <PostItem key={index} post={post} />)}
+                </ul>
             </div>
         </Layout>
     )

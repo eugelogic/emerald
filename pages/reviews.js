@@ -36,7 +36,7 @@ const Reviews = ({ reviews }) => {
                     chance to explore, make a record and learn how people handle conversion rate optimisation,
                     illustration, typography, colour cordination, layout and more.
                 </p>
-                <ul>
+                <ul className="indexList">
                     {reviews?.length > 0 && reviews.map((review, index) => <ReviewItem key={index} review={review} />)}
                 </ul>
             </div>

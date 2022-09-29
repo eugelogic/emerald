@@ -38,6 +38,9 @@ code {
     max-width: 45rem;
     padding: 0 1rem;
 }
+.indexList {
+    padding: 0;
+}
 @media (min-width: 47rem) {
     .container {
         padding: 0;
