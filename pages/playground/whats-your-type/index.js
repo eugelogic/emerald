@@ -9,21 +9,10 @@ const WhatsYourType = () => {
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-                <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Baumans&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet" />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baumans&family=Bungee+Shade&family=Courier+Prime&family=Emilys+Candy&family=Gochi+Hand&family=Indie+Flower&family=Megrim&family=Orbitron&family=Palette+Mosaic&family=Original+Surfer&family=Press+Start+2P&family=Rye&family=Tangerine&family=Tourney:wght@100&display=swap"
+                    rel="stylesheet"
+                ></link>
             </Head>
             <div className={styles.container}>
                 <h1 className={styles.text}>
