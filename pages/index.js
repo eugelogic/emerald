@@ -5,6 +5,7 @@ import Image from 'next/image'
 import ChirpItem from '../components/ChirpItem'
 import PeopleItem from '../components/PeopleItem'
 import styles from '../styles/Home.module.css'
+import { RoughNotation } from 'react-rough-notation'
 
 const Home = () => {
     function randomItemFromArray(arr) {
@@ -85,7 +86,9 @@ const Home = () => {
                                 </div>
                                 <div className={`${styles.box} ${styles.lttr}`}>
                                     <h1>Eugene Molari</h1>
-                                    <h2>Product Designer</h2>
+                                    <RoughNotation type="highlight" show={true} color="yellow">
+                                        <h2>Product Designer</h2>
+                                    </RoughNotation>
                                 </div>
                             </div>
                             <div className={`${styles.box} ${styles.ltb}`}>
@@ -104,7 +107,9 @@ const Home = () => {
                             <div className={`${styles.box} ${styles.lbl}`}>
                                 <Link href="/work">
                                     <a>
-                                        <h2>Work</h2>
+                                        <RoughNotation type="box" show={true} color="yellow" animationDuration={1500}>
+                                            <h2>Work</h2>
+                                        </RoughNotation>
                                         <Image
                                             src="/mous-block-man.jpg"
                                             alt="Mous Block Management"
@@ -123,7 +128,9 @@ const Home = () => {
                                             width={600}
                                             height={436}
                                         />
-                                        <h2>Reviews</h2>
+                                        <RoughNotation type="box" show={true} color="yellow" animationDuration={3000}>
+                                            <h2>Reviews</h2>
+                                        </RoughNotation>
                                     </a>
                                 </Link>
                             </div>
@@ -192,7 +199,9 @@ const Home = () => {
                             <div className={`${styles.box} ${styles.rrt}`}>
                                 <Link href="/playground">
                                     <a>
-                                        <h2>Playground</h2>
+                                        <RoughNotation type="box" show={true} color="yellow" animationDuration={4500}>
+                                            <h2>Playground</h2>
+                                        </RoughNotation>
                                         <Image
                                             src="/whats-your-type.jpg"
                                             alt="What's your type"
