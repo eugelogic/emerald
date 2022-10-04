@@ -107,7 +107,13 @@ const Home = () => {
                             <div className={`${styles.box} ${styles.lbl}`}>
                                 <Link href="/work">
                                     <a>
-                                        <RoughNotation type="box" show={true} color="yellow" animationDuration={1500}>
+                                        <RoughNotation
+                                            type="box"
+                                            show={true}
+                                            color="yellow"
+                                            animationDelay={500}
+                                            animationDuration={2000}
+                                        >
                                             <h2>Work</h2>
                                         </RoughNotation>
                                         <Image
@@ -128,7 +134,13 @@ const Home = () => {
                                             width={600}
                                             height={436}
                                         />
-                                        <RoughNotation type="box" show={true} color="yellow" animationDuration={3000}>
+                                        <RoughNotation
+                                            type="box"
+                                            show={true}
+                                            color="yellow"
+                                            animationDelay={2000}
+                                            animationDuration={2000}
+                                        >
                                             <h2>Reviews</h2>
                                         </RoughNotation>
                                     </a>
@@ -199,7 +211,13 @@ const Home = () => {
                             <div className={`${styles.box} ${styles.rrt}`}>
                                 <Link href="/playground">
                                     <a>
-                                        <RoughNotation type="box" show={true} color="yellow" animationDuration={4500}>
+                                        <RoughNotation
+                                            type="box"
+                                            show={true}
+                                            color="yellow"
+                                            animationDelay={3000}
+                                            animationDuration={2000}
+                                        >
                                             <h2>Playground</h2>
                                         </RoughNotation>
                                         <Image
