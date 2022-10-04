@@ -86,7 +86,7 @@ const Home = () => {
                                 </div>
                                 <div className={`${styles.box} ${styles.lttr}`}>
                                     <h1>Eugene Molari</h1>
-                                    <RoughNotation type="highlight" show={true} color="yellow">
+                                    <RoughNotation type="highlight" show={true} color="yellow" padding={20}>
                                         <h2>Product Designer</h2>
                                     </RoughNotation>
                                 </div>
@@ -113,6 +113,8 @@ const Home = () => {
                                             color="yellow"
                                             animationDelay={500}
                                             animationDuration={2000}
+                                            padding={10}
+                                            strokeWidth={2}
                                         >
                                             <h2>Work</h2>
                                         </RoughNotation>
@@ -140,6 +142,8 @@ const Home = () => {
                                             color="yellow"
                                             animationDelay={2000}
                                             animationDuration={2000}
+                                            padding={10}
+                                            strokeWidth={2}
                                         >
                                             <h2>Reviews</h2>
                                         </RoughNotation>
@@ -217,6 +221,8 @@ const Home = () => {
                                             color="yellow"
                                             animationDelay={3000}
                                             animationDuration={2000}
+                                            padding={10}
+                                            strokeWidth={2}
                                         >
                                             <h2>Playground</h2>
                                         </RoughNotation>
