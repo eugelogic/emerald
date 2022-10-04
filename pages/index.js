@@ -210,6 +210,11 @@ const Home = () => {
                                     </p>
                                 </ChirpItem>
                             </ul>
+                            <span className="buttonLink">
+                                <Link href="/chirps">
+                                    <a>See More Chirps</a>
+                                </Link>
+                            </span>
                         </div>
                         <div className={`${styles.box} ${styles.rr}`}>
                             <div className={`${styles.box} ${styles.rrt}`}>

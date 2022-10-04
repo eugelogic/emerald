@@ -40,6 +40,21 @@ code {
 }
 .indexList {
     padding: 0;
+    width: 100%;
+}
+.buttonLink {
+    margin: 1rem 0;
+}
+.buttonLink a {
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+.buttonLink a:hover {
+    border: none;
+    color: #1e1e1e;
+    background-color: white;
 }
 @media (min-width: 47rem) {
     .container {
