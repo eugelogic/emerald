@@ -6,7 +6,7 @@ const Chirps = () => {
         <Layout title="Chirps">
             <div className="container">
                 <h1>Chirps</h1>
-                <p>I’ve never been particularly good at writing blog posts, I’ll work on that.</p>
+                <p>I’ve never been particularly good at writing blog posts, I’m working on that.</p>
                 <p>
                     In the meanwhile, since I do have opinions about things, I’ll use my very own version of Twitter
                     called Chirps, where I share small thoughts with myself mainly for the sake of the record.
