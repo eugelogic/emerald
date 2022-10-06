@@ -15,9 +15,16 @@ const Footer = () => {
                 </a>{' '}
                 for free :-)
             </p>
+            <p>
+                Please{' '}
+                <a href="https://github.com/eugelogic/emerald/issues" target="_blank" rel="noopener noreferrer">
+                    let me know on GitHub
+                </a>{' '}
+                if you have found any issue/bug or just want to share some constructive criticism about this website.
+            </p>
             <Link href="/">
                 <a>
-                    <span>&copy; 2007-{new Date().getFullYear()} Eugene Molari Digital</span>
+                    <span>&copy; 2012-{new Date().getFullYear()} Eugene Molari Digital</span>
                 </a>
             </Link>
         </footer>
