@@ -9,7 +9,9 @@
     place-items: center;
 }
 .smallTileOne a {
-    line-height: 0.8;
+    font-family: 'McLaren', cursive;
+    font-weight: 500;
+    line-height: 0.85;
     font-size: 1.25rem;
 }
 .lttr {
@@ -21,11 +23,13 @@
 }
 .lttr h1 {
     margin: 0 0 0.5rem;
+    font-size: 2.5rem;
 }
 .lttr h2 {
     margin: 0.5rem;
-    padding: 0.25rem;
     color: #1e1e1e;
+    text-transform: uppercase;
+    font-size: 1.25rem;
 }
 .ltbr {
     display: flex;
@@ -42,6 +46,7 @@
 }
 .ltbr figcaption {
     margin-top: 0.5rem;
+    text-transform: uppercase;
 }
 .mobile,
 .ltbl {

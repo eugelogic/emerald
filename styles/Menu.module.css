@@ -14,7 +14,10 @@
     margin-bottom: 1rem;
 }
 .navHack ul li a {
+    font-family: 'McLaren', cursive;
+    font-weight: 500;
     font-size: 12vw;
+    line-height: 1.25;
 }
 @media (min-width: 510px) {
     .navHack ul li a {

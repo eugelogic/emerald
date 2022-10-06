@@ -20,10 +20,16 @@
     align-items: center;
     justify-content: center;
 }
+.siteTitle,
+.siteDescription {
+    font-family: 'McLaren', cursive;
+    font-weight: 500;
+}
 .siteTitle {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .siteDescription {
+    font-size: 1.25rem;
     text-transform: uppercase;
 }
 .tl,
@@ -46,6 +52,8 @@
     grid-row: 2/3;
 }
 .tr a {
+    font-family: 'McLaren', cursive;
+    font-weight: 500;
     line-height: 0.8;
     font-size: 1.25rem;
 }

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Quotes from '../public/quotes.json'
 import Link from 'next/link'
 import Head from 'next/head'
@@ -21,6 +22,12 @@ const Home = () => {
                 <meta name="description" content="Product Designer" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link rel="icon" href="./favicon.ico" />
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=McLaren&family=Montserrat:wght@300&display=swap"
+                    rel="stylesheet"
+                />
             </Head>
             <main>
                 <div className={styles.containerHome}>
@@ -86,7 +93,7 @@ const Home = () => {
                                 </div>
                                 <div className={`${styles.box} ${styles.lttr}`}>
                                     <h1>Eugene Molari</h1>
-                                    <RoughNotation type="highlight" show={true} color="yellow" padding={20}>
+                                    <RoughNotation type="highlight" show={true} color="yellow" animationDuration={2000}>
                                         <h2>Product Designer</h2>
                                     </RoughNotation>
                                 </div>
