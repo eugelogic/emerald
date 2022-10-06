@@ -5,6 +5,12 @@
     right: 1rem;
     top: 1rem;
 }
+.navHack {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .navHack ul {
     list-style: none;
     padding: 0;
@@ -18,6 +24,10 @@
     font-weight: 500;
     font-size: 12vw;
     line-height: 1.25;
+}
+.navHack ul li a:hover,
+.navHack ul li a:focus {
+    color: magenta;
 }
 @media (min-width: 510px) {
     .navHack ul li a {
