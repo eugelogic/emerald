@@ -24,7 +24,7 @@ const Footer = () => {
             </p>
             <Link href="/">
                 <a>
-                    <span>&copy; 2012-{new Date().getFullYear()} Eugene Molari Digital</span>
+                    <p>&copy; 2012-{new Date().getFullYear()} Eugene Molari Digital</p>
                 </a>
             </Link>
         </footer>
