@@ -24,14 +24,14 @@
 }
 .siteTitle,
 .siteDescription {
-    font-family: 'McLaren', cursive;
+    font-family: $font-family-cursive;
     font-weight: 500;
 }
 .siteTitle {
-    font-size: 2.5rem;
+    font-size: $fs-700;
 }
 .siteDescription {
-    font-size: 1.25rem;
+    font-size: $fs-500;
     text-transform: uppercase;
 }
 .tl,
@@ -53,10 +53,10 @@
     grid-column: 7/9;
     grid-row: 2/3;
     a {
-        font-family: 'McLaren', cursive;
+        font-family: $font-family-cursive;
         font-weight: 500;
         line-height: 0.8;
-        font-size: 1.25rem;
+        font-size: $fs-500;
     }
 }
 .br {

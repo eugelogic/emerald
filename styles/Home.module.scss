@@ -11,10 +11,10 @@
     place-items: center;
 }
 .smallTileOne a {
-    font-family: 'McLaren', cursive;
+    font-family: $font-family-cursive;
     font-weight: 500;
     line-height: 0.85;
-    font-size: 1.25rem;
+    font-size: $fs-500;
 }
 .lttr {
     display: flex;
@@ -24,13 +24,13 @@
     padding: 1rem;
     h1 {
         margin: 0 0 0.5rem;
-        font-size: 2.5rem;
+        font-size: $fs-700;
     }
     h2 {
         margin: 0.5rem;
         color: $gray-dark-very;
         text-transform: uppercase;
-        font-size: 1.25rem;
+        font-size: $fs-500;
     }
 }
 .ltbr {
@@ -43,7 +43,7 @@
         margin: 1rem;
     }
     q {
-        font-size: 1.5rem;
+        font-size: $fs-550;
     }
     figcaption {
         margin-top: 0.5rem;
@@ -94,7 +94,7 @@
     }
     p,
     a {
-        font-size: 1rem;
+        font-size: $fs-400;
     }
 }
 .rrb {

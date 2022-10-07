@@ -13,7 +13,7 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'McLaren', cursive;
+    font-family: $font-family-cursive;
     font-weight: 500;
 }
 p,
@@ -21,7 +21,7 @@ a,
 li,
 q,
 figcaption {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font-family-sans-serif;
 }
 a {
     color: inherit;
@@ -30,7 +30,7 @@ a {
 p,
 ul li,
 ol li {
-    font-size: 1.125rem;
+    font-size: $fs-450;
 }
 p a {
     text-decoration: underline;
@@ -44,7 +44,7 @@ pre {
     padding: 0.5rem;
 }
 code {
-    font-size: 1rem;
+    font-size: $fs-400;
 }
 .container {
     margin: 0 auto;
