@@ -14,6 +14,7 @@ const Home = () => {
         return item
     }
     const randomQuote = randomItemFromArray(Quotes)
+    const roughNotationColor = 'yellow'
 
     return (
         <>
@@ -93,7 +94,12 @@ const Home = () => {
                                 </div>
                                 <div className={`${styles.box} ${styles.lttr}`}>
                                     <h1>Eugene Molari</h1>
-                                    <RoughNotation type="highlight" show={true} color="yellow" animationDuration={2000}>
+                                    <RoughNotation
+                                        type="highlight"
+                                        show={true}
+                                        color={roughNotationColor}
+                                        animationDuration={2000}
+                                    >
                                         <h2>Product Designer</h2>
                                     </RoughNotation>
                                 </div>
@@ -117,7 +123,7 @@ const Home = () => {
                                         <RoughNotation
                                             type="box"
                                             show={true}
-                                            color="yellow"
+                                            color={roughNotationColor}
                                             animationDelay={500}
                                             animationDuration={2000}
                                             padding={10}
@@ -146,7 +152,7 @@ const Home = () => {
                                         <RoughNotation
                                             type="box"
                                             show={true}
-                                            color="yellow"
+                                            color={roughNotationColor}
                                             animationDelay={2000}
                                             animationDuration={2000}
                                             padding={10}
@@ -230,7 +236,7 @@ const Home = () => {
                                         <RoughNotation
                                             type="box"
                                             show={true}
-                                            color="yellow"
+                                            color={roughNotationColor}
                                             animationDelay={3000}
                                             animationDuration={2000}
                                             padding={10}
