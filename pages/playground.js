@@ -28,11 +28,9 @@ const Playground = () => {
                         imageAlt="whats-your-type"
                         imageWidth="600"
                         imageHeight="450"
+                        categories="#DESIGN #CODE"
                         title="What's Your Type"
                     >
-                        <div>
-                            <span>#DESIGN #CODE</span>
-                        </div>
                         <p>
                             This is one of my favourites. I thought it would be easier to put together 15 different font
                             families; far from it. I got the idea from the{' '}
@@ -52,11 +50,9 @@ const Playground = () => {
                         imageAlt="eugenes-elements"
                         imageWidth="1080"
                         imageHeight="593"
+                        categories="#DESIGN #CODE"
                         title="Eugene's Elements"
                     >
-                        <div>
-                            <span>#DESIGN #CODE</span>
-                        </div>
                         <p>
                             I always liked the way the period table looks, it&apos;s so well organised. One day I
                             wondered if I could make up my name with some of the elements. The number at the top of each
