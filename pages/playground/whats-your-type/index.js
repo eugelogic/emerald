@@ -8,7 +8,7 @@ const WhatsYourType = () => {
         <LayoutPlayItem title="What's Your Type">
             <Head>
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
                 <link
                     href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baumans&family=Bungee+Shade&family=Courier+Prime&family=Emilys+Candy&family=Gochi+Hand&family=Indie+Flower&family=Megrim&family=Orbitron&family=Palette+Mosaic&family=Original+Surfer&family=Press+Start+2P&family=Rye&family=Tangerine&family=Tourney:wght@100&display=swap"
                     rel="stylesheet"
