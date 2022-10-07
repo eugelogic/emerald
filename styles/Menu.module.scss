@@ -1,0 +1,38 @@
+@use './abstracts/' as *;
+
+.backButton {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+.navHack {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            text-align: center;
+            margin-bottom: 1rem;
+            a {
+                font-family: 'McLaren', cursive;
+                font-weight: 500;
+                font-size: 12vw;
+                line-height: 1.25;
+                &:hover,
+                &:focus {
+                    color: $magenta;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 510px) {
+    .navHack ul li a {
+        font-size: 3.75rem;
+    }
+}

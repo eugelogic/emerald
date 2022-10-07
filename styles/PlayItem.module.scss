@@ -1,0 +1,7 @@
+@use './abstracts/' as *;
+
+.listItem {
+    list-style: none;
+    border-top: 1px solid $gray-light-very;
+    padding-top: 1rem;
+}

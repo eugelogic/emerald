@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import PlayItem from '../components/PlayItem'
-import styles from '../styles/Playground.module.css'
+import styles from '../styles/Playground.module.scss'
 
 const Playground = () => {
     return (
