@@ -47,22 +47,34 @@ const Playground = () => {
                         </p>
                     </PlayItem>
                     <PlayItem
-                        slug="whats-your-type"
-                        imageSrc="/whats-your-type.jpg"
-                        imageAlt="whats-your-type"
-                        imageWidth="600"
-                        imageHeight="450"
-                        title="What's Your Type"
+                        slug="eugenes-elements"
+                        imageSrc="/eugenes-elements.jpg"
+                        imageAlt="eugenes-elements"
+                        imageWidth="1080"
+                        imageHeight="593"
+                        title="Eugene's Elements"
                     >
                         <div>
                             <span>#DESIGN #CODE</span>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            I always liked the way the period table looks, it&apos;s so well organised. One day I
+                            wondered if I could make up my name with some of the elements. The number at the top of each
+                            card is the atomic number, whereas the one at the bottom is the atomic weight. Click on each
+                            card to learn more.
+                        </p>
+                        <p>
+                            I used flexbox to arrange the cards and the elements within. To make it mobile friendly I
+                            just had to edit the direction of flex. I often like to use css named colours since they are
+                            easier to remember. This page features darkgreen, darkblue and darkmagenta. The font is{' '}
+                            <a
+                                href="https://fonts.google.com/specimen/Raleway"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                Raleway
+                            </a>
+                            .
                         </p>
                     </PlayItem>
                 </ul>
