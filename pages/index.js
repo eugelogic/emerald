@@ -5,7 +5,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import ChirpItem from '../components/ChirpItem'
 import PeopleItem from '../components/PeopleItem'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import { RoughNotation } from 'react-rough-notation'
 
 const Home = () => {

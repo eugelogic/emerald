@@ -1,5 +1,7 @@
+@use './abstracts/' as *;
+
 .box {
-    outline: 0.5px solid #d9d9d9;
+    outline: 0.5px solid $gray-light-very;
 }
 .smallTileOne,
 .smallTileTwo,
@@ -27,7 +29,7 @@
 }
 .lttr h2 {
     margin: 0.5rem;
-    color: #1e1e1e;
+    color: $gray-dark-very;
     text-transform: uppercase;
     font-size: 1.25rem;
 }

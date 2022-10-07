@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../styles/IndexListItem.module.css'
+import styles from '../styles/IndexListItem.module.scss'
 
 const ReviewItem = ({ review }) => {
     return (

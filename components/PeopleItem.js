@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import styles from '../styles/PeopleItem.module.css'
+import styles from '../styles/PeopleItem.module.scss'
 
 const PeopleItem = ({ src, link, name }) => {
     return (

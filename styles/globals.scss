@@ -1,3 +1,5 @@
+@use './abstracts' as *;
+
 * {
     box-sizing: border-box;
 }
@@ -5,8 +7,8 @@ html,
 body {
     padding: 0;
     margin: 0;
-    background-color: #1e1e1e;
-    color: white;
+    background-color: $gray-dark-very;
+    color: $white;
 }
 h1,
 h2,
@@ -34,11 +36,11 @@ p a {
     text-decoration: underline;
 }
 p a:hover {
-    color: #1e1e1e;
-    background-color: yellow;
+    color: $gray-dark-very;
+    background-color: $yellow;
 }
 pre {
-    background-color: #494949;
+    background-color: $gray-dark;
     padding: 0.5rem;
 }
 code {
@@ -58,14 +60,14 @@ code {
 }
 .buttonLink a {
     text-align: center;
-    border: 1px solid #d4d4d4;
+    border: 1px solid $gray-light-very;
     border-radius: 5px;
     padding: 0.5rem 1rem;
 }
 .buttonLink a:hover {
     border: none;
-    color: #1e1e1e;
-    background-color: white;
+    color: $gray-dark-very;
+    background-color: $white;
 }
 @media (min-width: 47rem) {
     .container {

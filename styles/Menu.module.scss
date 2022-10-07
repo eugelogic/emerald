@@ -1,3 +1,5 @@
+@use './abstracts/' as *;
+
 .backButton {
     border: none;
     background: none;
@@ -27,7 +29,7 @@
 }
 .navHack ul li a:hover,
 .navHack ul li a:focus {
-    color: magenta;
+    color: $magenta;
 }
 @media (min-width: 510px) {
     .navHack ul li a {

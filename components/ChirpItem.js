@@ -1,4 +1,4 @@
-import styles from '../styles/ChirpItem.module.css'
+import styles from '../styles/ChirpItem.module.scss'
 
 const ChirpItem = ({ date, tweetted = false, tweetLink, children }) => {
     return (

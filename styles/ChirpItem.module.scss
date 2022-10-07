@@ -1,6 +1,8 @@
+@use './abstracts' as *;
+
 .listItem {
     list-style: none;
-    border-top: 0.5px solid #d9d9d9;
+    border-top: 0.5px solid $gray-light-very;
     padding: 0.5rem 0;
 }
 .listItem time {
@@ -10,9 +12,9 @@
     margin: 0.5rem 0;
 }
 .twitterLink a {
-    color: #1da1f2;
+    color: $blue-twitter;
     overflow-wrap: break-word;
 }
 .twitterLink a:hover {
-    color: yellow;
+    color: $yellow;
 }

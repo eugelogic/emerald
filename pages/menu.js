@@ -2,7 +2,7 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import styles from '../styles/Menu.module.css'
+import styles from '../styles/Menu.module.scss'
 
 const Menu = () => {
     const router = useRouter()

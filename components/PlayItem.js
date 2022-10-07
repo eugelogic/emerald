@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/PlayItem.module.css'
+import styles from '../styles/PlayItem.module.scss'
 
 const PlayItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, title, children }) => {
     return (

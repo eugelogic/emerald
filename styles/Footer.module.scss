@@ -1,3 +1,5 @@
+@use './abstracts' as *;
+
 .footer {
     margin: 0 auto;
     padding: 0 1rem;
@@ -7,7 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-top: 0.5px solid #d9d9d9;
+    border-top: 0.5px solid $gray-light-very;
 }
 .footer p,
 .footer a {
