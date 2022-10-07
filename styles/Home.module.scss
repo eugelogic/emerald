@@ -55,8 +55,13 @@
     position: relative;
     display: grid;
     place-items: center;
+    background: repeat url('/profile-picture-bg.png');
     img {
-        width: 100%;
+        top: unset !important;
+        width: unset !important;
+        height: unset !important;
+        min-width: unset !important;
+        min-height: unset !important;
     }
 }
 .lbl,
