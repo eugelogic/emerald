@@ -4,9 +4,9 @@
     list-style: none;
     border-top: 0.5px solid $gray-light-very;
     padding: 0.5rem 0;
-}
-.listItem time {
-    font-size: 1rem;
+    time {
+        font-size: 1rem;
+    }
 }
 .chirpBody p {
     margin: 0.5rem 0;
@@ -14,7 +14,7 @@
 .twitterLink a {
     color: $blue-twitter;
     overflow-wrap: break-word;
-}
-.twitterLink a:hover {
-    color: $yellow;
+    &:hover {
+        color: $yellow;
+    }
 }

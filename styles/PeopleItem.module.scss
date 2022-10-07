@@ -1,17 +1,17 @@
 .peopleItemStripe {
+    a {
+        display: flex;
+        align-items: center;
+    }
+    & > a span:nth-child(2) {
+        margin-left: 1rem;
+    }
     margin-bottom: 0.5rem;
-}
-.peopleItemStripe a span img {
-    filter: saturate(0);
-    border-radius: 50%;
-}
-.peopleItemStripe a:hover span img {
-    filter: unset;
-}
-.peopleItemStripe a {
-    display: flex;
-    align-items: center;
-}
-.peopleItemStripe > a span:nth-child(2) {
-    margin-left: 1rem;
+    a span img {
+        filter: saturate(0);
+        border-radius: 50%;
+    }
+    &:hover span img {
+        filter: unset;
+    }
 }

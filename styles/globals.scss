@@ -34,10 +34,10 @@ ol li {
 }
 p a {
     text-decoration: underline;
-}
-p a:hover {
-    color: $gray-dark-very;
-    background-color: $yellow;
+    &:hover {
+        color: $gray-dark-very;
+        background-color: $yellow;
+    }
 }
 pre {
     background-color: $gray-dark;
@@ -57,17 +57,17 @@ code {
 }
 .buttonLink {
     margin: 1rem 0;
-}
-.buttonLink a {
-    text-align: center;
-    border: 1px solid $gray-light-very;
-    border-radius: 5px;
-    padding: 0.5rem 1rem;
-}
-.buttonLink a:hover {
-    border: none;
-    color: $gray-dark-very;
-    background-color: $white;
+    a {
+        text-align: center;
+        border: 1px solid $gray-light-very;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        &:hover {
+            border: none;
+            color: $gray-dark-very;
+            background-color: $white;
+        }
+    }
 }
 @media (min-width: 47rem) {
     .container {

@@ -22,16 +22,16 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
-}
-.lttr h1 {
-    margin: 0 0 0.5rem;
-    font-size: 2.5rem;
-}
-.lttr h2 {
-    margin: 0.5rem;
-    color: $gray-dark-very;
-    text-transform: uppercase;
-    font-size: 1.25rem;
+    h1 {
+        margin: 0 0 0.5rem;
+        font-size: 2.5rem;
+    }
+    h2 {
+        margin: 0.5rem;
+        color: $gray-dark-very;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+    }
 }
 .ltbr {
     display: flex;
@@ -39,26 +39,25 @@
     justify-content: center;
     text-align: center;
     padding: 1rem;
-}
-.ltbr figure {
-    margin: 1rem;
-}
-.ltbr q {
-    font-size: 1.5rem;
-}
-.ltbr figcaption {
-    margin-top: 0.5rem;
-    text-transform: uppercase;
+    figure {
+        margin: 1rem;
+    }
+    q {
+        font-size: 1.5rem;
+    }
+    figcaption {
+        margin-top: 0.5rem;
+        text-transform: uppercase;
+    }
 }
 .mobile,
 .ltbl {
     position: relative;
     display: grid;
     place-items: center;
-}
-.mobile img,
-.ltbl img {
-    width: 100%;
+    img {
+        width: 100%;
+    }
 }
 .lbl,
 .lbr,
@@ -72,14 +71,15 @@
 .lbl,
 .rrt {
     margin-top: 0;
-}
-.lbl h2,
-.lbr h2,
-.rrt h2 {
-    display: inline-block;
+    h2 {
+        display: inline-block;
+    }
 }
 .lbr {
     margin-bottom: 0;
+    h2 {
+        display: inline-block;
+    }
 }
 .rl {
     height: 100vh;
@@ -89,13 +89,13 @@
     align-items: center;
     padding: 1rem;
     overflow: scroll;
-}
-.rl h2 {
-    text-align: center;
-}
-.rl p,
-.rl a {
-    font-size: 1rem;
+    h2 {
+        text-align: center;
+    }
+    p,
+    a {
+        font-size: 1rem;
+    }
 }
 .rrb {
     display: flex;
