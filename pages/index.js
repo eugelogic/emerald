@@ -98,7 +98,7 @@ const Home = () => {
                                         type="highlight"
                                         show={true}
                                         color={roughNotationColor}
-                                        animationDuration={2000}
+                                        animationDuration={1500}
                                     >
                                         <h2>Product Designer</h2>
                                     </RoughNotation>
