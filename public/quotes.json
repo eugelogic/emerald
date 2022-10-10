@@ -6,7 +6,11 @@
     { "id": 5, "text": "It always seems impossible until it's done", "author": "Nelson Mandela" },
     { "id": 6, "text": "Always be yourself, everyone else is taken", "author": "Oscar Wilde" },
     { "id": 7, "text": "Fail early, fail often, but always fail forward", "author": "John C Maxwell" },
-    { "id": 8, "text": "You got to have things to look forward to", "author": "Someone" },
+    {
+        "id": 8,
+        "text": "Matter cannot be created or destroyed, but it can change forms",
+        "author": "Law of Conservation of Mass"
+    },
     { "id": 9, "text": "Perfection is the enemy of progress", "author": "Winston Churchill" },
     { "id": 10, "text": "A bad idea is good, a good idea is terrific, no idea is terrible", "author": "Someone" },
     { "id": 11, "text": "Keep creating", "author": "Someone" },
@@ -15,10 +19,5 @@
     { "id": 14, "text": "Good design is as little design as possible", "author": "Dieter Rams" },
     { "id": 15, "text": "While drawing, I discover what I really want to say", "author": "Dario Fo" },
     { "id": 16, "text": "Change is inevitable. Progress is optional", "author": "Tony Robbins" },
-    { "id": 17, "text": "Carpe diem", "author": "Horace" },
-    {
-        "id": 18,
-        "text": "Matter cannot be created or destroyed, but it can change forms",
-        "author": "Law of Conservation of Mass"
-    }
+    { "id": 17, "text": "Carpe diem", "author": "Horace" }
 ]
