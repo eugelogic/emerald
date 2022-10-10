@@ -99,6 +99,12 @@
     justify-content: center;
     text-align: center;
     padding: 2rem;
+    a span img {
+        filter: saturate(0);
+    }
+    a:hover span img {
+        filter: unset;
+    }
 }
 .lbl,
 .rrt {
