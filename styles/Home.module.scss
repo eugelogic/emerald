@@ -15,6 +15,33 @@
     font-weight: 500;
     line-height: 0.85;
     font-size: $fs-500;
+    &:hover {
+        color: $magenta;
+    }
+}
+.smallTileTwo a {
+    .instagramIcon {
+        fill: $white;
+    }
+    .instagramIcon:hover {
+        fill: $magenta;
+    }
+}
+.smallTileThree a {
+    .githubIcon {
+        fill: $white;
+    }
+    .githubIcon:hover {
+        fill: $magenta;
+    }
+}
+.smallTileFour a {
+    .twitterIcon {
+        stroke: $white;
+    }
+    .twitterIcon:hover {
+        stroke: $magenta;
+    }
 }
 .lttr {
     display: flex;
@@ -78,12 +105,18 @@
     margin-top: 0;
     h2 {
         display: inline-block;
+        &:hover {
+            color: $magenta;
+        }
     }
 }
 .lbr {
     margin-bottom: 0;
     h2 {
         display: inline-block;
+        &:hover {
+            color: $magenta;
+        }
     }
 }
 .r {
@@ -106,6 +139,9 @@
     overflow: scroll;
     h2 {
         text-align: center;
+        &:hover {
+            color: $magenta;
+        }
     }
     p,
     a {
@@ -118,6 +154,9 @@
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    h2:hover {
+        color: $magenta;
+    }
 }
 .PeopleItemList {
     list-style: none;

@@ -1,7 +1,12 @@
+@use './abstracts/' as *;
+
 .peopleItemStripe {
     a {
         display: flex;
         align-items: center;
+        &:hover {
+            color: $magenta;
+        }
     }
     & > a span:nth-child(2) {
         margin-left: 1rem;
