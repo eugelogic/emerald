@@ -143,12 +143,6 @@ const Home = () => {
                             <div className={`${styles.box} ${styles.lbr}`}>
                                 <Link href="/reviews">
                                     <a>
-                                        <Image
-                                            src="/tigermarketing-co-uk.jpg"
-                                            alt="tigermarketing.co.uk"
-                                            width={600}
-                                            height={436}
-                                        />
                                         <RoughNotation
                                             type="box"
                                             show={true}
@@ -160,6 +154,12 @@ const Home = () => {
                                         >
                                             <h2>Reviews</h2>
                                         </RoughNotation>
+                                        <Image
+                                            src="/tigermarketing-co-uk.jpg"
+                                            alt="tigermarketing.co.uk"
+                                            width={600}
+                                            height={436}
+                                        />
                                     </a>
                                 </Link>
                             </div>

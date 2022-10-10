@@ -175,6 +175,9 @@
         display: grid;
         grid-template-columns: 50% 50%;
     }
+    .rrt {
+        justify-content: center;
+    }
 }
 @media (max-width: 900px) {
     .ltbl {
@@ -195,6 +198,12 @@
     .lt {
         display: grid;
         grid-template-rows: 50% 50%;
+    }
+    .lbl {
+        justify-content: start;
+    }
+    .lbr {
+        justify-content: end;
     }
     .rr {
         display: grid;
