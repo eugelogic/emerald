@@ -86,6 +86,16 @@
         display: inline-block;
     }
 }
+.r {
+    display: flex;
+    flex-direction: column;
+    .rl {
+        order: 2;
+    }
+    .rr {
+        order: 1;
+    }
+}
 .rl {
     height: 100vh;
     display: flex;
@@ -174,6 +184,12 @@
     .r {
         display: grid;
         grid-template-columns: 50% 50%;
+        .rl {
+            order: 1;
+        }
+        .rr {
+            order: 2;
+        }
     }
     .rrt {
         justify-content: center;
