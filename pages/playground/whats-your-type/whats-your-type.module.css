@@ -29,6 +29,7 @@
 .h a {
     font-family: 'Tangerine', cursive;
     letter-spacing: 5px;
+    font-weight: bold;
 }
 .a a {
     font-family: 'Gochi Hand', cursive;
@@ -47,6 +48,7 @@
 .yUp a {
     font-family: 'Megrim', cursive;
     letter-spacing: 5px;
+    font-weight: bold;
     color: fuchsia;
 }
 .o a {
@@ -61,6 +63,7 @@
 }
 .tUp a {
     font-family: 'Bungee Shade', cursive;
+    font-weight: bold;
 }
 .y a {
     font-family: 'Indie Flower', cursive;
