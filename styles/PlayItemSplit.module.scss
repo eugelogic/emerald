@@ -1,0 +1,39 @@
+@use './abstracts/' as *;
+
+.listItem {
+    list-style: none;
+    border-top: 1px solid $gray-light-very;
+    padding: 1rem 0;
+    div:nth-child(2) {
+        padding: 1rem 0 0;
+    }
+    .categories {
+        span {
+            font-size: $fs-350;
+        }
+    }
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    a span img {
+        border: 1px solid $gray-light-very !important;
+    }
+    a h2 {
+        margin: 1rem 0;
+        &:hover {
+            color: $magenta;
+        }
+    }
+}
+@media (min-width: 35rem) {
+    .listItem {
+        display: flex;
+        div:nth-child(2) {
+            padding: 0 1rem;
+        }
+        div {
+            flex: 1;
+        }
+    }
+}

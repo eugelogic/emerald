@@ -1,5 +1,5 @@
 import Layout from '../components/Layout'
-import PlayItem from '../components/PlayItem'
+import PlayItemSplit from '../components/PlayItemSplit'
 import styles from '../styles/Playground.module.scss'
 
 const Playground = () => {
@@ -22,7 +22,7 @@ const Playground = () => {
                 </p>
                 <p>I get inspired by magazines, architecture, music, fashion, art and industrial design.</p>
                 <ul className={styles.playgroundList}>
-                    <PlayItem
+                    <PlayItemSplit
                         slug="whats-your-type"
                         imageSrc="/whats-your-type.jpg"
                         imageAlt="whats-your-type"
@@ -43,8 +43,8 @@ const Playground = () => {
                             </a>
                             . If you curious, click each letter to learn what font I used.
                         </p>
-                    </PlayItem>
-                    <PlayItem
+                    </PlayItemSplit>
+                    <PlayItemSplit
                         slug="eugenes-elements"
                         imageSrc="/eugenes-elements.jpg"
                         imageAlt="eugenes-elements"
@@ -72,7 +72,7 @@ const Playground = () => {
                             </a>
                             .
                         </p>
-                    </PlayItem>
+                    </PlayItemSplit>
                 </ul>
             </div>
         </Layout>
