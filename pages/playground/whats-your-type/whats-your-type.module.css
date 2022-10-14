@@ -6,7 +6,6 @@
     justify-content: center;
     align-items: center;
 }
-
 .text {
     font-size: 25vw;
     color: black;
@@ -21,7 +20,6 @@
     text-decoration: none;
     color: inherit;
 }
-
 .wUp a {
     font-family: 'Abril Fatface', cursive;
     color: white;

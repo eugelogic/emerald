@@ -1,4 +1,5 @@
 /* eslint-disable */
+import BackButton from '../../../components/BackButton'
 import LayoutPlayItem from '../../../components/LayoutPlayItem'
 import Head from 'next/head'
 import styles from './whats-your-type.module.css'
@@ -172,6 +173,7 @@ const WhatsYourType = () => {
                     </span>
                 </h1>
             </div>
+            <BackButton color="#aeaeae" />
         </LayoutPlayItem>
     )
 }

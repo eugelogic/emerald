@@ -1,0 +1,14 @@
+@use './abstracts/' as *;
+
+.backButton {
+    border: none;
+    background: none;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        transform: rotate(-12deg);
+    }
+}

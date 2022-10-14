@@ -1,4 +1,5 @@
 /* eslint-disable */
+import BackButton from '../../../components/BackButton'
 import LayoutPlayItem from '../../../components/LayoutPlayItem'
 import Head from 'next/head'
 import styles from './eugenes-elements.module.scss'
@@ -48,6 +49,7 @@ const EugenesElements = () => {
                     </div>
                 </a>
             </div>
+            <BackButton color="#161616" />
         </LayoutPlayItem>
     )
 }
