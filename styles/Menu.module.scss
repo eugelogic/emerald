@@ -6,6 +6,17 @@
     position: absolute;
     right: 1rem;
     top: 1rem;
+    &:hover,
+    &:focus {
+        cursor: pointer;
+        transform: rotate(-12deg);
+    }
+    svg {
+        fill: white;
+        &:hover {
+            fill: $magenta;
+        }
+    }
 }
 .navHack {
     height: 100vh;
