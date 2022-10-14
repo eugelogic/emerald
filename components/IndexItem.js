@@ -1,11 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/PlayItem.module.scss'
+import styles from '../styles/IndexItem.module.scss'
 
-const PlayItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categories, title, children }) => {
+const IndexItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categories, title, children }) => {
     return (
         <li className={styles.listItem}>
-            <Link href={`/playground/${slug}`}>
+            <Link href={`/${slug}`}>
                 <a>
                     <Image src={imageSrc} alt={imageAlt} width={imageWidth} height={imageHeight} layout="responsive" />
                 </a>
@@ -13,7 +13,7 @@ const PlayItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categorie
             <div className={styles.categories}>
                 <span>{categories}</span>
             </div>
-            <Link href={`/playground/${slug}`}>
+            <Link href={`/${slug}`}>
                 <a>
                     <h2>{title}</h2>
                 </a>
@@ -23,4 +23,4 @@ const PlayItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categorie
     )
 }
 
-export default PlayItem
+export default IndexItem

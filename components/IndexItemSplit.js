@@ -1,12 +1,12 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from '../styles/PlayItemSplit.module.scss'
+import styles from '../styles/IndexItemSplit.module.scss'
 
-const PlayItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categories, title, children }) => {
+const IndexItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categories, title, children }) => {
     return (
         <li className={styles.listItem}>
             <div>
-                <Link href={`/playground/${slug}`}>
+                <Link href={`/${slug}`}>
                     <a>
                         <Image
                             src={imageSrc}
@@ -22,7 +22,7 @@ const PlayItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categorie
                 <div className={styles.categories}>
                     <span>{categories}</span>
                 </div>
-                <Link href={`/playground/${slug}`}>
+                <Link href={`/${slug}`}>
                     <a>
                         <h2>{title}</h2>
                     </a>
@@ -33,4 +33,4 @@ const PlayItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categorie
     )
 }
 
-export default PlayItem
+export default IndexItem
