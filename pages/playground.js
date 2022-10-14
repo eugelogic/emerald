@@ -1,6 +1,6 @@
 import Layout from '../components/Layout'
 import IndexItemSplit from '../components/IndexItemSplit'
-import styles from '../styles/Playground.module.scss'
+import styles from '../styles/Index.module.scss'
 
 const Playground = () => {
     return (
@@ -21,7 +21,7 @@ const Playground = () => {
                     .
                 </p>
                 <p>I get inspired by magazines, architecture, music, fashion, art and industrial design.</p>
-                <ul className={styles.playgroundList}>
+                <ul className={styles.indexList}>
                     <IndexItemSplit
                         slug="whats-your-type"
                         imageSrc="/whats-your-type.jpg"

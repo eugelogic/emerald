@@ -4,7 +4,7 @@
     list-style: none;
     border-top: 1px solid $gray-light-very;
     padding: 1rem 0;
-    div:nth-child(2) {
+    div:last-child {
         padding: 1rem 0 0;
     }
     .categories {
@@ -29,7 +29,12 @@
 @media (min-width: 35rem) {
     .listItem {
         display: flex;
-        div:nth-child(2) {
+        div:first-child {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        div:last-child {
             padding: 0 1rem;
         }
         div {

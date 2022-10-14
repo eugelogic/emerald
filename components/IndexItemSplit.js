@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/IndexItemSplit.module.scss'
 
-const IndexItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categories, title, children }) => {
+const IndexItemSplit = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categories, title, children }) => {
     return (
         <li className={styles.listItem}>
             <div>
@@ -33,4 +33,4 @@ const IndexItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categori
     )
 }
 
-export default IndexItem
+export default IndexItemSplit
