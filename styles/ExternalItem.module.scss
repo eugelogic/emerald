@@ -1,0 +1,15 @@
+@use './abstracts/' as *;
+
+.externalItemStripe {
+    a {
+        display: flex;
+        align-items: center;
+        &:hover {
+            color: $magenta;
+        }
+    }
+    & > a span:nth-child(2) {
+        margin-left: 1rem;
+    }
+    margin-bottom: 0.5rem;
+}
