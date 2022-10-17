@@ -35,6 +35,7 @@ ol li {
 }
 p a {
     text-decoration: underline;
+    text-underline-offset: 2px;
     &:hover {
         color: $gray-dark-very;
         background-color: $yellow;
