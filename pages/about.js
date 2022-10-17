@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../components/Layout'
+import styles from '../styles/About.module.scss'
 
 const About = () => {
     return (
@@ -8,8 +9,10 @@ const About = () => {
             <div className="container">
                 <h1>About</h1>
                 <h2>About Me</h2>
-                <Image src="/eugene-molari.jpg" alt="Eugene Molari" width={240} height={240} />
-                <p>Greetings, my name is Eugene, I like to design & build web solutions from North London, UK.</p>
+                <span className={styles.profileImage}>
+                    <Image src="/eugene-molari.jpg" alt="Eugene Molari" width={240} height={240} />
+                </span>
+                <p>Greetings, my name is Eugene, I design & build web solutions from North London, UK.</p>
                 <p>
                     I have 7+ years experience working as project manager and web developer for two WordPress agencies.
                 </p>
@@ -63,6 +66,12 @@ const About = () => {
                     </a>{' '}
                     for free.
                 </p>
+                <Image
+                    src="/eumodig-image-placeholder-1.6-light.jpg"
+                    alt="placeholder image"
+                    width={720}
+                    height={446}
+                />
                 <p>
                     In terms of style, call me old-fashioned but I like to use{' '}
                     <a href="https://sass-lang.com/" target="_blank" rel="noopener noreferrer">
@@ -121,8 +130,8 @@ const About = () => {
                 <p>
                     I&apos;ve been using apps in dark mode for a long time now so it made sense to have the same
                     approach when I chose the background colour. I hope you don&apos;t mind, I find it less strenuous on
-                    the eyes and it&apos;s also more energy efficient. The other hues are a selection close the ones of
-                    the{' '}
+                    the eyes and it&apos;s also more energy efficient. The other hues are a selection close to the ones
+                    of the{' '}
                     <a href="https://en.wikipedia.org/wiki/CMYK_color_model" target="_blank" rel="noopener noreferrer">
                         CMYK color model
                     </a>
