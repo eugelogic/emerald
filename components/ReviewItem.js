@@ -4,7 +4,7 @@ import styles from '../styles/IndexListItem.module.scss'
 const ReviewItem = ({ review }) => {
     return (
         <li className={styles.listItem}>
-            <span>{review.frontmatter.industry}</span>
+            <p className={styles.industry}>#{review.frontmatter.industry}</p>
             <Link href={`/review/${review.slug}`}>
                 <a>
                     <h2>{review.frontmatter.title}</h2>

@@ -1,12 +1,16 @@
 ---
 title: 'Tiger Marketing'
-link: 'https://www.tigermarketing.co.uk'
+link: 'tigermarketing.co.uk'
 date: '2022-10-05'
 excerpt: 'Detailed colourful illustrations with some captivating animation, that is just the beginning, this website converts'
 industry: 'Marketing'
 ---
 
-...
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+![image](/eumodig-image-placeholder-2-to-1-light.jpg)
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## Sad Face
 

@@ -2,7 +2,7 @@
 
 .listItem {
     list-style: none;
-    border-top: 1px solid $gray-light-very;
+    border-top: 0.5px solid $gray-light-very;
     padding: 1rem 0;
     div:last-child {
         padding: 1rem 0 0;
@@ -17,7 +17,7 @@
     }
 
     a span img {
-        border: 1px solid $gray-light-very !important;
+        border: 0.5px solid $gray-light-very !important;
     }
     a h2 {
         margin: 1rem 0;

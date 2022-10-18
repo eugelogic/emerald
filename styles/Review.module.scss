@@ -1,0 +1,16 @@
+@use './abstracts/' as *;
+
+.metadata {
+    border-bottom: 0.5px solid $gray-light-very;
+    padding-bottom: 1rem;
+    p {
+        margin: 0.25rem 0;
+    }
+}
+.industry {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.link a {
+    text-decoration: none;
+}

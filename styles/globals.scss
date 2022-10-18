@@ -23,6 +23,7 @@ q,
 time,
 figcaption {
     font-family: $font-family-sans-serif;
+    font-weight: 400;
 }
 a {
     color: inherit;
@@ -39,7 +40,6 @@ p a {
     &:hover {
         color: $gray-dark-very;
         background-color: $yellow;
-        font-weight: bolder;
     }
 }
 pre {

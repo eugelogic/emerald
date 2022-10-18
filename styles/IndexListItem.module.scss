@@ -2,8 +2,12 @@
 
 .listItem {
     list-style: none;
-    border-top: 1px solid $gray-light-very;
+    border-top: 0.5px solid $gray-light-very;
+    padding-top: 0.5rem;
     margin-bottom: 1rem;
+    .industry {
+        text-transform: uppercase;
+    }
     h2 {
         margin: 0.5rem 0;
         &:hover {
