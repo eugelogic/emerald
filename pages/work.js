@@ -56,6 +56,7 @@ const Work = () => {
                     </IndexItemSplit>
                 </ul>
                 <div className={styles.moreContent}>
+                    <p>More work items coming soon.</p>
                     <p>Want to see more of my output ?</p>
                     <span className="buttonLink">
                         <Link href="/playground">
