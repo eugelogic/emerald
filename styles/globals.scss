@@ -49,14 +49,23 @@ pre {
 code {
     font-size: $fs-400;
 }
+hr {
+    border-color: $gray-light-very;
+}
 .container,
-.container--large {
+.container--large,
+.colRow,
+.colRow--large {
     margin: 0 auto;
     padding: 0 1rem;
 }
 .container,
-.container--large {
+.container--large,
+.colRow {
     max-width: 45rem;
+}
+.colRow--large {
+    max-width: 70rem;
 }
 .indexList {
     padding: 0;
@@ -76,9 +85,48 @@ code {
         }
     }
 }
-@media (min-width: 47rem) {
-    .container {
+.moreContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-top: 0.5px solid $gray-light-very;
+    padding: 3rem 0;
+    p {
+        margin: 0;
+    }
+}
+@media (min-width: 40rem) {
+    .colRow {
         padding: 0;
+    }
+    .colRow {
+        display: flex;
+        .colHalf {
+            padding: 1rem;
+            flex: 1;
+        }
+    }
+}
+@media (min-width: 47rem) {
+    .container,
+    .container--large,
+    .colRow--large {
+        padding: 0;
+    }
+    .colRow--large {
+        display: flex;
+        .colOneThird,
+        .colTwoThirds {
+            padding: 1rem;
+        }
+        .colOneThird {
+            flex: 1;
+        }
+        .colTwoThirds {
+            flex: 2;
+        }
     }
 }
 @media (min-width: 60rem) {

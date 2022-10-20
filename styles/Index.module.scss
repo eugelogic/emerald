@@ -4,15 +4,3 @@
     margin: 0;
     padding: 0;
 }
-.moreContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    border-top: 0.5px solid $gray-light-very;
-    padding: 3rem 0;
-    p {
-        margin: 0;
-    }
-}

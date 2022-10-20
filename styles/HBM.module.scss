@@ -1,0 +1,23 @@
+@use './abstracts' as *;
+
+.stretchList {
+    padding: 0 1rem;
+    li a {
+        text-decoration: underline;
+        text-underline-offset: 2px;
+        &:hover {
+            color: $gray-dark-very;
+            background-color: $yellow;
+        }
+    }
+}
+@media (min-width: 40rem) {
+    .stretchList {
+        li {
+            margin-bottom: 2rem;
+        }
+        li:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -48,7 +48,7 @@ const Work = () => {
                         </p>
                     </IndexItemSplit>
                 </ul>
-                <div className={styles.moreContent}>
+                <div className="moreContent">
                     <p>More work items coming soon.</p>
                     <p>Want to see more of my output ?</p>
                     <div className="buttonLink">
