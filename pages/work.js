@@ -12,29 +12,22 @@ const Work = () => {
                 <ul className={styles.indexList}>
                     <IndexItemSplit
                         slug="work/hbm"
-                        imageSrc="/eumodig-image-placeholder-square-light.jpg"
-                        imageAlt="eumodig-image-placeholder-square-light"
-                        imageWidth="720"
-                        imageHeight="720"
+                        imageSrc="/hbm-homepage-thumbnail.jpg"
+                        imageAlt="hbm homepage thumbnail"
+                        imageWidth="840"
+                        imageHeight="463"
                         categories="#DESIGN #CODE"
                         title="HBM"
                     >
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua.
+                            Brochure website with a loooong homepage, lots of content in the internal pages and a number
+                            of client story items.
                         </p>
-                        <p>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur.
-                        </p>
-                        <p>
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                            anim id est laborum.
-                        </p>
-                        <p>
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                            commodo consequat.
-                        </p>
+                        <div className="buttonLink">
+                            <Link href="/work/hbm">
+                                <a>Learn More</a>
+                            </Link>
+                        </div>
                     </IndexItemSplit>
                     <IndexItemSplit
                         slug="work/delparc"
@@ -58,11 +51,11 @@ const Work = () => {
                 <div className={styles.moreContent}>
                     <p>More work items coming soon.</p>
                     <p>Want to see more of my output ?</p>
-                    <span className="buttonLink">
+                    <div className="buttonLink">
                         <Link href="/playground">
                             <a>View Playground</a>
                         </Link>
-                    </span>
+                    </div>
                 </div>
             </div>
         </Layout>

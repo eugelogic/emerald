@@ -4,41 +4,42 @@
     list-style: none;
     border-top: 0.5px solid $gray-light-very;
     padding: 1rem 0;
-    div:last-child {
-        padding: 1rem 0 0;
-    }
-    .categories {
-        span {
-            font-size: $fs-350;
+    .media {
+        a span img {
+            border: 0.5px solid $gray-light-very !important;
         }
     }
-    p:last-child {
-        margin-bottom: 0;
-    }
-
-    a span img {
-        border: 0.5px solid $gray-light-very !important;
-    }
-    a h2 {
-        margin: 1rem 0;
-        &:hover {
-            color: $magenta;
+    .blurb {
+        padding: 1rem 0 0;
+        .categories {
+            span {
+                font-size: $fs-350;
+            }
+        }
+        a h2 {
+            margin: 1rem 0;
+            &:hover {
+                color: $magenta;
+            }
+        }
+        p:last-child {
+            margin-bottom: 0;
         }
     }
 }
 @media (min-width: 35rem) {
     .listItem {
         display: flex;
-        div:first-child {
+        div {
+            flex: 1;
+        }
+        .media {
             display: flex;
             flex-direction: column;
             justify-content: center;
         }
-        div:last-child {
+        .blurb {
             padding: 0 1rem;
-        }
-        div {
-            flex: 1;
         }
     }
 }

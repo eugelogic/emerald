@@ -5,7 +5,7 @@ import styles from '../styles/IndexItemSplit.module.scss'
 const IndexItemSplit = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categories, title, children }) => {
     return (
         <li className={styles.listItem}>
-            <div>
+            <div className={styles.media}>
                 <Link href={`/${slug}`}>
                     <a>
                         <Image
@@ -18,7 +18,7 @@ const IndexItemSplit = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, cat
                     </a>
                 </Link>
             </div>
-            <div>
+            <div className={styles.blurb}>
                 <div className={styles.categories}>
                     <span>{categories}</span>
                 </div>
