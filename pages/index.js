@@ -1,10 +1,11 @@
 /* eslint-disable */
 import Quotes from '../public/quotes.json'
+import ResourcesData from '../public/resources-data.json'
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import ChirpItem from '../components/ChirpItem'
-import PeopleItem from '../components/PeopleItem'
+import ResourceItem from '../components/ResourceItem'
 import styles from '../styles/Home.module.scss'
 import { RoughNotation } from 'react-rough-notation'
 
@@ -216,7 +217,7 @@ const Home = () => {
                             </ul>
                             <span className="buttonLink">
                                 <Link href="/chirps">
-                                    <a>See More Chirps</a>
+                                    <a>Read More Chirps</a>
                                 </Link>
                             </span>
                         </div>
@@ -245,24 +246,20 @@ const Home = () => {
                                 </Link>
                             </div>
                             <div className={`${styles.box} ${styles.rrb}`}>
-                                <Link href="/people">
+                                <Link href="/resources">
                                     <a>
-                                        <h2>Awesome People</h2>
+                                        <h2>Resources</h2>
                                     </a>
                                 </Link>
-                                <ul className={styles.PeopleItemList}>
-                                    <PeopleItem name="Femke" link="https://keepo.io/femke/" src="/femke.jpg" />
-                                    <PeopleItem
-                                        name="Jakob Nielsen"
-                                        link="https://www.nngroup.com/people/jakob-nielsen/"
-                                        src="/jakob-nielsen.jpg"
-                                    />
-                                    <PeopleItem name="Wes Bos" link="https://wesbos.com/" src="/wes-bos.jpg" />
-                                    <PeopleItem
-                                        name="Pablo Stanley"
-                                        link="https://www.instagram.com/pablostanley/"
-                                        src="/pablo-stanley.jpg"
-                                    />
+                                <ul>
+                                    {ResourcesData?.length > 0 &&
+                                        ResourcesData.map((resource) =>
+                                            resource.draft === false && resource.homepage === true ? (
+                                                <ResourceItem resource={resource} />
+                                            ) : (
+                                                ''
+                                            )
+                                        )}
                                 </ul>
                             </div>
                         </div>

@@ -44,13 +44,8 @@ const Menu = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/people">
-                            <a>People</a>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="/links">
-                            <a>Links</a>
+                        <Link href="/resources">
+                            <a>Resources</a>
                         </Link>
                     </li>
                 </ul>
