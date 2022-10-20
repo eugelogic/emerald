@@ -49,10 +49,14 @@ pre {
 code {
     font-size: $fs-400;
 }
-.container {
+.container,
+.container--large {
     margin: 0 auto;
-    max-width: 45rem;
     padding: 0 1rem;
+}
+.container,
+.container--large {
+    max-width: 45rem;
 }
 .indexList {
     padding: 0;
@@ -75,5 +79,10 @@ code {
 @media (min-width: 47rem) {
     .container {
         padding: 0;
+    }
+}
+@media (min-width: 60rem) {
+    .container--large {
+        max-width: 70rem;
     }
 }

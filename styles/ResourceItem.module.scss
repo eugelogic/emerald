@@ -1,0 +1,12 @@
+.resourceItemEntry {
+    img {
+        border-radius: 50%;
+    }
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 0.5rem;
+    a {
+        line-height: 0;
+    }
+}
