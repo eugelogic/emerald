@@ -23,7 +23,7 @@ const Playground = () => {
                 <p>I get inspired by magazines, architecture, music, fashion, art and industrial design.</p>
                 <ul className={styles.indexList}>
                     <IndexItemSplit
-                        slug="whats-your-type"
+                        slug="playground/whats-your-type"
                         imageSrc="/whats-your-type.jpg"
                         imageAlt="whats-your-type"
                         imageWidth="600"
@@ -45,7 +45,7 @@ const Playground = () => {
                         </p>
                     </IndexItemSplit>
                     <IndexItemSplit
-                        slug="eugenes-elements"
+                        slug="playground/eugenes-elements"
                         imageSrc="/eugenes-elements.jpg"
                         imageAlt="eugenes-elements"
                         imageWidth="1080"
