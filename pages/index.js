@@ -37,9 +37,7 @@ const Home = () => {
                         <div className={`${styles.box} ${styles.lt}`}>
                             <div className={`${styles.box} ${styles.ltt}`}>
                                 <div className={`${styles.box} ${styles.lttl}`}>
-                                    <div className={`${styles.box} ${styles.mobile}`}>
-                                        <Image src="/eugene-molari.jpg" alt="Eugene Molari" layout="fill" />
-                                    </div>
+                                    <div className={`${styles.box} ${styles.mobile}`}></div>
                                     <div className={`${styles.box} ${styles.smallTileOne}`}>
                                         <Link href="/menu">
                                             <a>
@@ -97,9 +95,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className={`${styles.box} ${styles.ltb}`}>
-                                <div className={`${styles.box} ${styles.ltbl}`}>
-                                    <Image src="/eugene-molari.jpg" alt="Eugene Molari" layout="fill" />
-                                </div>
+                                <div className={`${styles.box} ${styles.ltbl}`}></div>
                                 <div className={`${styles.box} ${styles.ltbr}`}>
                                     <figure>
                                         <q>{randomQuote.text}</q>
