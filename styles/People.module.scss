@@ -1,0 +1,15 @@
+@use './abstracts' as *;
+
+.peopleList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+@media (min-width: 36rem) {
+    .peopleRow {
+        display: flex;
+    }
+    .peopleWidget {
+        flex: 1;
+    }
+}

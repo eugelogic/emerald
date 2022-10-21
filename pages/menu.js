@@ -48,6 +48,11 @@ const Menu = () => {
                             <a>Resources</a>
                         </Link>
                     </li>
+                    <li>
+                        <Link href="/people">
+                            <a>People</a>
+                        </Link>
+                    </li>
                 </ul>
                 <BackButton color="white" />
             </nav>

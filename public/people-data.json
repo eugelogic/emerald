@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Wes Bos",
+        "avatar": "/wes-bos.jpg",
+        "link": "https://wesbos.com/",
+        "featured": true,
+        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+    },
+    {
+        "id": 2,
+        "name": "Jakob Nielsen",
+        "avatar": "/jakob-nielsen.jpg",
+        "link": "https://www.nngroup.com/people/jakob-nielsen/",
+        "featured": true,
+        "blurb": "Lorem ipsum tempor incididunt ut labore dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+    },
+    {
+        "id": 3,
+        "name": "Femke",
+        "avatar": "/femke.jpg",
+        "link": "https://www.femke.design/",
+        "featured": true,
+        "blurb": "Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore, consectetur adipiscing elit."
+    }
+]

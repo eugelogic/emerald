@@ -52,6 +52,11 @@ code {
 hr {
     border-color: $gray-light-very;
 }
+.textHighlight {
+    color: $gray-dark-very;
+    background-color: $yellow;
+    padding: 0 2px;
+}
 .container,
 .container--large,
 .colRow,

@@ -1,11 +1,11 @@
 /* eslint-disable */
 import Quotes from '../public/quotes.json'
-import ResourcesData from '../public/resources-data.json'
+import PeopleData from '../public/people-data.json'
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import ChirpItem from '../components/ChirpItem'
-import ResourceItem from '../components/ResourceItem'
+import PeopleItem from '../components/PeopleItem'
 import styles from '../styles/Home.module.scss'
 import { RoughNotation } from 'react-rough-notation'
 
@@ -246,19 +246,15 @@ const Home = () => {
                                 </Link>
                             </div>
                             <div className={`${styles.box} ${styles.rrb}`}>
-                                <Link href="/resources">
+                                <Link href="/people">
                                     <a>
-                                        <h2>Resources</h2>
+                                        <h2>Awesome People</h2>
                                     </a>
                                 </Link>
-                                <ul>
-                                    {ResourcesData?.length > 0 &&
-                                        ResourcesData.map((resource) =>
-                                            resource.draft === false && resource.homepage === true ? (
-                                                <ResourceItem resource={resource} />
-                                            ) : (
-                                                ''
-                                            )
+                                <ul className={styles.PeopleItemList}>
+                                    {PeopleData?.length > 0 &&
+                                        PeopleData.map((people) =>
+                                            people.featured ? <PeopleItem people={people} /> : ''
                                         )}
                                 </ul>
                             </div>

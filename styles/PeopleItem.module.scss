@@ -1,0 +1,32 @@
+@use './abstracts/' as *;
+
+.peopleItemStripe {
+    a {
+        display: flex;
+        align-items: flex-start;
+        &:hover {
+            color: $magenta;
+        }
+        .text {
+            flex: 1;
+            padding-left: 1rem;
+            h2 {
+                font-size: 1.25rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            & > * {
+                margin: 0;
+            }
+        }
+    }
+    margin-bottom: 1rem;
+    a span img {
+        filter: saturate(0);
+        border-radius: 50%;
+    }
+    &:hover span img {
+        filter: unset;
+    }
+}
