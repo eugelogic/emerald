@@ -1,4 +1,8 @@
 /* eslint-disable */
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+import { sortByDate } from '../utils'
 import Quotes from '../public/quotes.json'
 import PeopleData from '../public/people-data.json'
 import Link from 'next/link'
@@ -10,7 +14,29 @@ import styles from '../styles/Home.module.scss'
 import { RoughNotation } from 'react-rough-notation'
 import { useEffect, useState } from 'react'
 
-const Home = () => {
+export const getStaticProps = async () => {
+    const files = fs.readdirSync(path.join('chirps'))
+
+    const chirps = files.map((filename) => {
+        const slug = filename.replace('.md', '')
+        const markdownWithMeta = fs.readFileSync(path.join('chirps', filename), 'utf8')
+        const { data: frontmatter, content } = matter(markdownWithMeta)
+
+        return {
+            slug,
+            frontmatter,
+            content,
+        }
+    })
+
+    return {
+        props: {
+            chirps: chirps.sort(sortByDate),
+        },
+    }
+}
+
+const Home = ({ chirps }) => {
     const roughNotationColor = 'yellow'
     const [quote, setQuote] = useState(['Carpe Diem', 'Horatio'])
     useEffect(() => {
@@ -166,54 +192,14 @@ const Home = () => {
                                 </a>
                             </Link>
                             <ul className="indexList">
-                                <ChirpItem
-                                    date="2022-09-27"
-                                    tweetted={true}
-                                    tweetLink="https://twitter.com/EugeneMolari/status/1574864898122711040"
-                                >
-                                    <p>
-                                        When I take a look at a new website, there is something I always check, it’s the
-                                        copyright year at the bottom of the page. If it’s not up to date I cry. I wonder
-                                        how that is possible in this day and age of web frameworks which do everything
-                                        automagically for you.
-                                    </p>{' '}
-                                    <p>
-                                        I personally use <code>`new Date().getFullYear()`</code> to make sure it&apos;s
-                                        always up to date.
-                                    </p>
-                                </ChirpItem>
-                                <ChirpItem
-                                    date="2022-09-27"
-                                    tweetted={true}
-                                    tweetLink="https://twitter.com/EugeneMolari/status/1574864898122711040"
-                                >
-                                    <p>
-                                        When I take a look at a new website, there is something I always check, it’s the
-                                        copyright year at the bottom of the page. If it’s not up to date I cry. I wonder
-                                        how that is possible in this day and age of web frameworks which do everything
-                                        automagically for you.
-                                    </p>{' '}
-                                    <p>
-                                        I personally use <code>`new Date().getFullYear()`</code> to make sure it&apos;s
-                                        always up to date.
-                                    </p>
-                                </ChirpItem>
-                                <ChirpItem
-                                    date="2022-09-27"
-                                    tweetted={true}
-                                    tweetLink="https://twitter.com/EugeneMolari/status/1574864898122711040"
-                                >
-                                    <p>
-                                        When I take a look at a new website, there is something I always check, it’s the
-                                        copyright year at the bottom of the page. If it’s not up to date I cry. I wonder
-                                        how that is possible in this day and age of web frameworks which do everything
-                                        automagically for you.
-                                    </p>{' '}
-                                    <p>
-                                        I personally use <code>`new Date().getFullYear()`</code> to make sure it&apos;s
-                                        always up to date.
-                                    </p>
-                                </ChirpItem>
+                                {chirps?.length > 0 &&
+                                    chirps.map((chirp, index) =>
+                                        chirp.frontmatter.featured === true ? (
+                                            <ChirpItem key={index} chirp={chirp} />
+                                        ) : (
+                                            ''
+                                        )
+                                    )}
                             </ul>
                             <span className="buttonLink">
                                 <Link href="/chirps">

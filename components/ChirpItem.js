@@ -1,14 +1,16 @@
+import { marked } from 'marked'
 import styles from '../styles/ChirpItem.module.scss'
 
-const ChirpItem = ({ date, tweetted = false, tweetLink, children }) => {
+const ChirpItem = ({ chirp }) => {
+    const chirpData = chirp.frontmatter
     return (
         <li className={styles.listItem}>
-            <time dateTime={date}>{date}</time>
-            <div className={styles.chirpBody}>{children}</div>
-            {tweetted ? (
+            <time dateTime={chirpData.date}>{chirpData.date}</time>
+            <div className={styles.chirpBody} dangerouslySetInnerHTML={{ __html: marked(chirp.content) }}></div>
+            {chirpData.twitterLink ? (
                 <div className={styles.twitterLink}>
-                    <a href={tweetLink} target="_blank" rel="noopener noreferrer">
-                        {tweetLink} &#10138;
+                    <a href={chirpData.twitterLink} target="_blank" rel="noopener noreferrer">
+                        {chirpData.twitterLink} &#10138;
                     </a>
                 </div>
             ) : (

@@ -7,14 +7,17 @@
     time {
         font-size: $fs-400;
     }
-}
-.chirpBody p {
-    margin: 0.5rem 0;
-}
-.twitterLink a {
-    color: $blue-twitter;
-    overflow-wrap: break-word;
-    &:hover {
-        color: $yellow;
+    .chirpBody p {
+        margin: 0.5rem 0;
+    }
+    .chirpBody img {
+        width: 100%;
+    }
+    .twitterLink a {
+        color: $blue-twitter;
+        overflow-wrap: break-word;
+        &:hover {
+            color: $yellow;
+        }
     }
 }
