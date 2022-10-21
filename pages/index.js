@@ -8,14 +8,18 @@ import ChirpItem from '../components/ChirpItem'
 import PeopleItemHP from '../components/PeopleItemHP'
 import styles from '../styles/Home.module.scss'
 import { RoughNotation } from 'react-rough-notation'
+import { useEffect, useState } from 'react'
 
 const Home = () => {
-    function randomItemFromArray(arr) {
-        const item = arr[Math.floor(Math.random() * arr.length)]
-        return item
-    }
-    const randomQuote = randomItemFromArray(Quotes)
     const roughNotationColor = 'yellow'
+    const [quote, setQuote] = useState(['Carpe Diem', 'Horatio'])
+    useEffect(() => {
+        function randomItemFromArray(arr) {
+            const item = arr[Math.floor(Math.random() * arr.length)]
+            return item
+        }
+        setQuote(randomItemFromArray(Quotes))
+    }, [])
 
     return (
         <>
@@ -98,8 +102,8 @@ const Home = () => {
                                 <div className={`${styles.box} ${styles.ltbl}`}></div>
                                 <div className={`${styles.box} ${styles.ltbr}`}>
                                     <figure>
-                                        <q>{randomQuote.text}</q>
-                                        <figcaption>- {randomQuote.author}</figcaption>
+                                        <q>{quote.text}</q>
+                                        <figcaption>- {quote.author}</figcaption>
                                     </figure>
                                 </div>
                             </div>
