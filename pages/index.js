@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
 import ChirpItem from '../components/ChirpItem'
-import PeopleItem from '../components/PeopleItem'
+import PeopleItemHP from '../components/PeopleItemHP'
 import styles from '../styles/Home.module.scss'
 import { RoughNotation } from 'react-rough-notation'
 
@@ -254,7 +254,7 @@ const Home = () => {
                                 <ul className={styles.PeopleItemList}>
                                     {PeopleData?.length > 0 &&
                                         PeopleData.map((people) =>
-                                            people.featured ? <PeopleItem people={people} /> : ''
+                                            people.featured ? <PeopleItemHP key={people.id} people={people} /> : ''
                                         )}
                                 </ul>
                             </div>

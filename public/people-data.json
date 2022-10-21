@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Wes Bos",
-        "avatar": "/wes-bos.jpg",
+        "avatar": "https://avatars.githubusercontent.com/u/176013?v=4",
         "link": "https://wesbos.com/",
         "featured": true,
         "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
@@ -18,9 +18,33 @@
     {
         "id": 3,
         "name": "Femke",
-        "avatar": "/femke.jpg",
+        "avatar": "https://pbs.twimg.com/profile_images/1580625785056284674/25WxS69U_400x400.jpg",
         "link": "https://www.femke.design/",
         "featured": true,
         "blurb": "Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore, consectetur adipiscing elit."
+    },
+    {
+        "id": 4,
+        "name": "Kevin Powell",
+        "avatar": "https://avatars.githubusercontent.com/u/25749407?v=4",
+        "link": "https://www.youtube.com/kevinpowell",
+        "featured": false,
+        "blurb": "Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore, consectetur adipiscing elit."
+    },
+    {
+        "id": 5,
+        "name": "Lynn Fisher",
+        "avatar": "https://avatars.githubusercontent.com/u/871315?v=4",
+        "link": "https://github.com/lynnandtonic",
+        "featured": false,
+        "blurb": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."
+    },
+    {
+        "id": 6,
+        "name": "Tania Rascia",
+        "avatar": "https://avatars.githubusercontent.com/u/11951801?v=4",
+        "link": "https://www.taniarascia.com/",
+        "featured": false,
+        "blurb": "Lorem ipsum tempor incididunt ut labore dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
     }
 ]

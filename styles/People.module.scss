@@ -4,12 +4,13 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(18.75rem, 1fr));
+    grid-auto-rows: minmax(4.25rem, auto);
 }
-@media (min-width: 36rem) {
-    .peopleRow {
-        display: flex;
-    }
-    .peopleWidget {
-        flex: 1;
+@media (min-width: 40rem) {
+    .peopleList {
+        // display: flex;
+        // flex-wrap: wrap;
     }
 }

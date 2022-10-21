@@ -1,0 +1,20 @@
+@use './abstracts/' as *;
+
+.peopleItemStripeHP {
+    a {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        &:hover {
+            color: $magenta;
+        }
+    }
+    margin-bottom: 0.5rem;
+    a span img {
+        filter: saturate(0);
+        border-radius: 50%;
+    }
+    &:hover span img {
+        filter: unset;
+    }
+}

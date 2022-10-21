@@ -155,6 +155,10 @@
     }
 }
 .rrb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
     h2 {
         text-align: center;

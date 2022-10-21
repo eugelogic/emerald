@@ -1,11 +1,13 @@
 @use './abstracts/' as *;
 
 .peopleItemStripe {
+    max-width: 22.5rem;
     a {
+        padding: 1rem;
         display: flex;
         align-items: flex-start;
         &:hover {
-            color: $magenta;
+            outline: 0.5px solid $gray-light-very;
         }
         .text {
             flex: 1;
@@ -21,12 +23,7 @@
             }
         }
     }
-    margin-bottom: 1rem;
     a span img {
-        filter: saturate(0);
         border-radius: 50%;
-    }
-    &:hover span img {
-        filter: unset;
     }
 }
