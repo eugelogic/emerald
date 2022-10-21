@@ -127,6 +127,9 @@ const About = () => {
                     </a>{' '}
                     for highlighting and boxing titles.
                 </p>
+                <span className={styles.cmykImage}>
+                    <Image src="/cmyk.jpg" alt="" width={240} height={240} />
+                </span>
                 <p>
                     I&apos;ve been using apps in dark mode for a long time now so it made sense to have the same
                     approach when I chose the background colour. I hope you don&apos;t mind, I find it less strenuous on
