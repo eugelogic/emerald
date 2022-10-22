@@ -15,6 +15,7 @@ const WhatsYourType = () => {
                     rel="stylesheet"
                 ></link>
             </Head>
+            <BackButton color="#d0d0d0" />
             <div className={styles.container}>
                 <h1 className={styles.text}>
                     <span className={styles.wUp}>
@@ -173,7 +174,6 @@ const WhatsYourType = () => {
                     </span>
                 </h1>
             </div>
-            <BackButton color="#aeaeae" />
         </LayoutPlayItem>
     )
 }

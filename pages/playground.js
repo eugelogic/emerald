@@ -21,6 +21,14 @@ const Playground = () => {
                     .
                 </p>
                 <p>I get inspired by magazines, architecture, music, fashion, art and industrial design.</p>
+                <div className={styles.warningBox}>
+                    <p>All the playground pages are menuless.</p>
+                    <p>
+                        Use the cross (X) at the top right to navigate back to this page
+                        <br />
+                        or the &quot;back button&quot; of your browser.
+                    </p>
+                </div>
                 <ul className={styles.indexList}>
                     <IndexItemSplit
                         slug="playground/whats-your-type"

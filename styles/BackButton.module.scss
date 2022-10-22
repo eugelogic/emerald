@@ -1,14 +1,25 @@
-@use './abstracts/' as *;
-
 .backButton {
     border: none;
     background: none;
     position: absolute;
-    right: 1rem;
-    top: 1rem;
+    right: -8.5rem;
+    top: 0;
     &:hover,
     &:focus {
         cursor: pointer;
         transform: rotate(-12deg);
+    }
+    svg {
+        width: 15%;
+        height: auto;
+    }
+}
+@media (min-width: 60rem) {
+    .backButton {
+        right: -7rem;
+        svg {
+            width: 30%;
+            height: auto;
+        }
     }
 }

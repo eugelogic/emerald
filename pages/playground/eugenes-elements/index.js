@@ -15,6 +15,7 @@ const EugenesElements = () => {
                     rel="stylesheet"
                 ></link>
             </Head>
+            <BackButton color="#161616" />
             <div className={styles.container}>
                 <a
                     href="https://www.rsc.org/periodic-table/element/63/europium"
@@ -49,7 +50,6 @@ const EugenesElements = () => {
                     </div>
                 </a>
             </div>
-            <BackButton color="#161616" />
         </LayoutPlayItem>
     )
 }
