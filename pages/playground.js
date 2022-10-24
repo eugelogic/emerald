@@ -26,7 +26,7 @@ const Playground = () => {
                     <p>
                         Use the cross (X) at the top right to navigate back to this page
                         <br />
-                        or the &quot;back button&quot; of your browser.
+                        or the back button of your browser.
                     </p>
                 </div>
                 <ul className={styles.indexList}>
