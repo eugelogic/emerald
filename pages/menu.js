@@ -16,6 +16,7 @@ const Menu = () => {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
                 <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet" />
             </Head>
+            <BackButton color="white" />
             <nav className={styles.navHack}>
                 <ul>
                     <li>
@@ -53,8 +54,12 @@ const Menu = () => {
                             <a>People</a>
                         </Link>
                     </li>
+                    <li>
+                        <Link href="/chirps">
+                            <a>Chirps</a>
+                        </Link>
+                    </li>
                 </ul>
-                <BackButton color="white" />
             </nav>
         </>
     )
