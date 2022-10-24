@@ -147,6 +147,9 @@
     a {
         font-size: $fs-400;
     }
+    img {
+        filter: saturate(0);
+    }
 }
 .rrb {
     display: flex;
