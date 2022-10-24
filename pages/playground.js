@@ -21,7 +21,7 @@ const Playground = () => {
                     .
                 </p>
                 <p>I get inspired by magazines, architecture, music, fashion, art and industrial design.</p>
-                <div className={styles.warningBox}>
+                <div className={styles.noticeBox}>
                     <p>All the playground pages are menuless.</p>
                     <p>
                         Use the cross (X) at the top right to navigate back to this page
