@@ -1,7 +1,6 @@
 import Layout from '../components/Layout'
 import IndexItemSplit from '../components/IndexItemSplit'
 import Link from 'next/link'
-import styles from '../styles/Index.module.scss'
 
 const Work = () => {
     return (
@@ -9,7 +8,7 @@ const Work = () => {
             <div className="container">
                 <h1>Work</h1>
                 <p>Here are some of the websites I designed and coded over the years for a wide range of clients.</p>
-                <ul className={styles.indexList}>
+                <ul className="indexList">
                     <IndexItemSplit
                         slug="work/hbm"
                         imageSrc="/hbm-homepage-thumbnail.jpg"

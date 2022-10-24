@@ -1,6 +1,5 @@
 import Layout from '../components/Layout'
 import IndexItemSplit from '../components/IndexItemSplit'
-import styles from '../styles/Index.module.scss'
 
 const Playground = () => {
     return (
@@ -21,7 +20,7 @@ const Playground = () => {
                     .
                 </p>
                 <p>I get inspired by magazines, architecture, music, fashion, art and industrial design.</p>
-                <div className={styles.noticeBox}>
+                <div className="noticeBox">
                     <p>All the playground pages are menuless.</p>
                     <p>
                         Use the cross (X) at the top right to navigate back to this page
@@ -29,7 +28,7 @@ const Playground = () => {
                         or the back button of your browser.
                     </p>
                 </div>
-                <ul className={styles.indexList}>
+                <ul className="indexList">
                     <IndexItemSplit
                         slug="playground/whats-your-type"
                         imageSrc="/whats-your-type.jpg"
