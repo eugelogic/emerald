@@ -4,6 +4,7 @@ link: 'tigermarketing.co.uk'
 date: '2022-10-05'
 excerpt: 'Detailed colourful illustrations with some captivating animation, that is just the beginning, this website converts'
 industry: 'Marketing'
+thumbnail: '/tigermarketing-co-uk.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

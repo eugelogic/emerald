@@ -31,10 +31,11 @@ const Reviews = ({ reviews }) => {
         <Layout title="Reviews">
             <div className="container">
                 <h1>Reviews</h1>
+                <p>There are some really good websites out there.</p>
                 <p>
-                    There are some really good websites out there. This is a small collection of reviews where I get a
-                    chance to explore, make a record and learn how people handle conversion rate optimisation,
-                    illustration, typography, colour cordination, layout and more.
+                    This is a small collection of reviews where I get a chance to explore, make a record and learn how
+                    people handle conversion rate optimisation, illustration, typography, colour cordination, layout and
+                    more.
                 </p>
                 <ul className="indexList">
                     {reviews?.length > 0 && reviews.map((review, index) => <ReviewItem key={index} review={review} />)}
