@@ -30,12 +30,24 @@ const HBM = () => {
                     </a>{' '}
                     had to offer.
                 </p>
-                <p>
-                    Since the launch I reproduced the design in Figma because the original website has been{' '}
-                    <i>slightly</i> altered. I also changed the name of the company as this piece of work was not
-                    actually commissioned by the client and I don&apos;t want to get in trouble with copyrights,
-                    it&apos;s now called MAUS instead of HAUS :-)
-                </p>
+            </div>
+            <div className="colRow--large">
+                <div className="colOneThird">
+                    <p>
+                        Since the launch I reproduced the design in Figma because the original website has been{' '}
+                        <i>slightly</i> altered.
+                    </p>
+                    <p>
+                        I also changed the name of the company as this piece of work was not actually commissioned by
+                        the client and I don&apos;t want to get in trouble with copyrights.
+                    </p>
+                    <p>It&apos;s now called MAUS instead of HAUS :-)</p>
+                </div>
+                <div className="colTwoThirds">
+                    <Image src="/mbm-figma-project.jpg" alt="mbm figma project" width={1440} height={900} />
+                </div>
+            </div>
+            <div className="container">
                 <hr />
                 <p>The initial challenge was to fit lots of content on the homepage.</p>
             </div>
