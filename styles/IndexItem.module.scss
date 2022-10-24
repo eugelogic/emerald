@@ -1,5 +1,7 @@
 @use './abstracts/' as *;
 
+// this is a legacy stylesheet, currently not in use
+
 .listItem {
     list-style: none;
     border-top: 1px solid $gray-light-very;

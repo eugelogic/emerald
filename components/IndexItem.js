@@ -2,6 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '../styles/IndexItem.module.scss'
 
+// this is a legacy component, currently not in use
+
 const IndexItem = ({ slug, imageSrc, imageAlt, imageWidth, imageHeight, categories, title, children }) => {
     return (
         <li className={styles.listItem}>
