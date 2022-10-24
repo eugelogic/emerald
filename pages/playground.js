@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Layout from '../components/Layout'
 import IndexItemSplit from '../components/IndexItemSplit'
 
@@ -50,6 +51,11 @@ const Playground = () => {
                             </a>
                             . If you curious, click each letter to learn what font I used.
                         </p>
+                        <div className="buttonLink">
+                            <Link href="playground/whats-your-type">
+                                <a>Explore</a>
+                            </Link>
+                        </div>
                     </IndexItemSplit>
                     <IndexItemSplit
                         slug="playground/eugenes-elements"
@@ -79,6 +85,11 @@ const Playground = () => {
                             </a>
                             .
                         </p>
+                        <div className="buttonLink">
+                            <Link href="playground/eugenes-elements">
+                                <a>Explore</a>
+                            </Link>
+                        </div>
                     </IndexItemSplit>
                 </ul>
             </div>
