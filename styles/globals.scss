@@ -64,18 +64,22 @@ hr {
 .colRow,
 .colRow--large {
     margin: 0 auto;
-    padding: 0 1rem;
     img {
         border-radius: 5px;
     }
 }
 .container,
-.container--large,
+.container--large {
+    max-width: 45rem;
+    padding: 0 1rem;
+}
 .colRow {
     max-width: 45rem;
+    padding: 0;
 }
 .colRow--large {
     max-width: 70rem;
+    padding: 0 1rem;
 }
 .indexList {
     margin: 0;
@@ -114,10 +118,8 @@ hr {
 }
 @media (min-width: 40rem) {
     .colRow {
-        padding: 0;
-    }
-    .colRow {
         display: flex;
+        padding: 0;
         .colHalf {
             padding: 1rem;
             flex: 1;

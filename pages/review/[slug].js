@@ -48,7 +48,7 @@ const ReviewPage = ({ frontmatter: { title, link, date, industry }, content }) =
                         </a>
                     </p>
                 </div>
-                <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
+                <div className={styles.content} dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
             </div>
         </Layout>
     )
