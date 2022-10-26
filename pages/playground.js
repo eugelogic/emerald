@@ -1,8 +1,33 @@
-import Link from 'next/link'
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+import PlayItem from '../components/PlayItem'
 import Layout from '../components/Layout'
-import IndexItemSplit from '../components/IndexItemSplit'
+import { sortByDate } from '../utils'
 
-const Playground = () => {
+export const getStaticProps = async () => {
+    const files = fs.readdirSync(path.join('plays'))
+
+    const plays = files.map((filename) => {
+        const slug = filename.replace('.md', '')
+        const markdownWithMeta = fs.readFileSync(path.join('plays', filename), 'utf8')
+        const { data: frontmatter, content } = matter(markdownWithMeta)
+
+        return {
+            slug,
+            frontmatter,
+            content,
+        }
+    })
+
+    return {
+        props: {
+            plays: plays.sort(sortByDate),
+        },
+    }
+}
+
+const Playground = ({ plays }) => {
     return (
         <Layout title="Playground">
             <div className="container">
@@ -30,67 +55,10 @@ const Playground = () => {
                     </p>
                 </div>
                 <ul className="indexList">
-                    <IndexItemSplit
-                        slug="playground/whats-your-type"
-                        imageSrc="/whats-your-type.jpg"
-                        imageAlt="whats-your-type"
-                        imageWidth="600"
-                        imageHeight="450"
-                        categories="#DESIGN #CODE"
-                        title="What's Your Type"
-                    >
-                        <p>
-                            This is one of my favourites. I thought it would be easier to put together 15 different font
-                            families; far from it. I got the idea from the{' '}
-                            <a
-                                href="https://profilebooks.com/work/just-my-type/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                “Just My Type” book
-                            </a>
-                            . If you curious, click each letter to learn what font I used.
-                        </p>
-                        <div className="buttonLink">
-                            <Link href="playground/whats-your-type">
-                                <a>Explore</a>
-                            </Link>
-                        </div>
-                    </IndexItemSplit>
-                    <IndexItemSplit
-                        slug="playground/eugenes-elements"
-                        imageSrc="/eugenes-elements.jpg"
-                        imageAlt="eugenes-elements"
-                        imageWidth="1080"
-                        imageHeight="593"
-                        categories="#DESIGN #CODE"
-                        title="Eugene's Elements"
-                    >
-                        <p>
-                            I always liked the way the period table looks, it&apos;s so well organised. One day I
-                            wondered if I could make up my name with some of the elements. The number at the top of each
-                            card is the atomic number, whereas the one at the bottom is the atomic weight. Click on each
-                            card to learn more.
-                        </p>
-                        <p>
-                            I used flexbox to arrange the cards and the elements within. To make it mobile friendly I
-                            just had to edit the direction of flex. I often like to use css named colours since they are
-                            easier to remember. This page features darkgreen, darkblue and darkmagenta. The font is{' '}
-                            <a
-                                href="https://fonts.google.com/specimen/Raleway"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Raleway
-                            </a>
-                            .
-                        </p>
-                        <div className="buttonLink">
-                            <Link href="playground/eugenes-elements">
-                                <a>Explore</a>
-                            </Link>
-                        </div>
-                    </IndexItemSplit>
+                    {plays?.length > 0 &&
+                        plays.map((play, index) =>
+                            play.frontmatter.draft === false ? <PlayItem key={index} play={play} /> : ''
+                        )}
                 </ul>
             </div>
         </Layout>

@@ -27,7 +27,7 @@ export const getStaticProps = async () => {
     }
 }
 
-const Chirps = ({ chirps, content }) => {
+const Chirps = ({ chirps }) => {
     return (
         <Layout title="Chirps">
             <div className="container">
@@ -39,8 +39,7 @@ const Chirps = ({ chirps, content }) => {
                 </p>
                 <p>Think of chirps as talking to yourself, we all do it right !?</p>
                 <ul className="indexList">
-                    {chirps?.length > 0 &&
-                        chirps.map((chirp, index) => <ChirpItem key={index} chirp={chirp} content={content} />)}
+                    {chirps?.length > 0 && chirps.map((chirp, index) => <ChirpItem key={index} chirp={chirp} />)}
                 </ul>
             </div>
         </Layout>
