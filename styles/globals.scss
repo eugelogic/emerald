@@ -116,6 +116,30 @@ hr {
         margin: 0;
     }
 }
+.colourPalette {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+        text-align: center;
+        padding: 0.5rem 2rem;
+    }
+}
+.hexCol-e05f0c {
+    color: $gray-dark-very;
+    background-color: #e05f0c;
+}
+.hexCol-dfe4d4 {
+    color: $gray-dark-very;
+    background-color: #dfe4d4;
+}
+.hexCol-a7bf81 {
+    color: $gray-dark-very;
+    background-color: #a7bf81;
+}
+.hexCol-405d18 {
+    background-color: #405d18;
+}
 @media (min-width: 40rem) {
     .colRow {
         display: flex;
@@ -123,6 +147,12 @@ hr {
         .colHalf {
             padding: 1rem;
             flex: 1;
+            p:first-child {
+                margin-top: 0;
+            }
+            p:last-child {
+                margin-bottom: 0;
+            }
         }
     }
 }

@@ -38,13 +38,12 @@ const ReviewPage = ({ frontmatter: { title, link, date, industry }, content }) =
             <div className="container">
                 <h1>{title}</h1>
                 <div className={styles.metadata}>
-                    <p>
-                        Published on <time>{date}</time>
-                    </p>
-                    <p className={styles.industry}>#{industry}</p>
+                    {/* <p>Published on <time>{date}</time></p> */}
+                    {/* <p className={styles.industry}>#{industry}</p> */}
                     <p className={styles.link}>
+                        Visit site:{' '}
                         <a href={`https://www.${link}`} target="_blank" rel="noreferrer noopener">
-                            {link} &#10138;
+                            {link}
                         </a>
                     </p>
                 </div>
