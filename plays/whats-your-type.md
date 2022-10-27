@@ -2,7 +2,7 @@
 title: "What's Your Type"
 draft: false
 date: '2022-01-15'
-thumbnail: '/whats-your-type.jpg'
+thumbnail: '/whats-your-type-timg.jpg'
 categories: '#design #code'
 ---
 

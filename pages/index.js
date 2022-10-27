@@ -225,8 +225,8 @@ const Home = ({ chirps }) => {
                                         <Image
                                             src="/whats-your-type.jpg"
                                             alt="What's your type"
-                                            width={600}
-                                            height={451}
+                                            width={720}
+                                            height={450}
                                         />
                                     </a>
                                 </Link>

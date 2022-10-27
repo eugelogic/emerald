@@ -9,7 +9,7 @@ const PlayItem = ({ play }) => {
             <div className={styles.media}>
                 <Link href={`/playground/${play.slug}`}>
                     <a>
-                        <Image src={play.frontmatter.thumbnail} alt={play.frontmatter.title} width={540} height={436} />
+                        <Image src={play.frontmatter.thumbnail} alt={play.frontmatter.title} width={540} height={540} />
                     </a>
                 </Link>
             </div>

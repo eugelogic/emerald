@@ -2,7 +2,7 @@
 title: "Eugene's Elements"
 draft: false
 date: '2022-01-12'
-thumbnail: '/eugenes-elements.jpg'
+thumbnail: '/eugenes-elements-timg.jpg'
 categories: '#design #code'
 ---
 
