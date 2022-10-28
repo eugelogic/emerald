@@ -1,6 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
+import Link from 'next/link'
 import ReviewItem from '../components/ReviewItem'
 import Layout from '../components/Layout'
 import { sortByDate } from '../utils'
@@ -40,6 +41,15 @@ const Reviews = ({ reviews }) => {
                 <ul className="indexList">
                     {reviews?.length > 0 && reviews.map((review, index) => <ReviewItem key={index} review={review} />)}
                 </ul>
+                <div className="moreContent">
+                    <p>More reviews coming soon.</p>
+                    <p>Want to see more of my output ?</p>
+                    <div className="buttonLink">
+                        <Link href="/playground">
+                            <a>View Playground</a>
+                        </Link>
+                    </div>
+                </div>
             </div>
         </Layout>
     )
