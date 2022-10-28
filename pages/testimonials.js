@@ -6,9 +6,9 @@ const Testimonials = () => {
             <div className="container">
                 <h1>Testimonials</h1>
                 <h2>Christopher Geary</h2>
-                <h3>Co-worker @ Indigo Tree Digital</h3>
+                <h3>Senior Web Developer @ Indigo Tree Digital</h3>
                 <p>
-                    He and I worked together at IndigoTree, where his position was &apos;Web Developer&apos; and my
+                    Eugene and I worked together at IndigoTree, where his position was &apos;Web Developer&apos; and my
                     position was &apos;Senior Web Developer&apos;. Eugene has great communication skills, a high
                     attention to detail, and a wealth of experience with content management systems. Those combined with
                     his understanding of web development, earnt him full ownership of projects, which was unheard of for
@@ -34,7 +34,7 @@ const Testimonials = () => {
                     asset to any team that he joins in the future.
                 </p>
                 <h2>Kelly Wilson</h2>
-                <h3>Co-worker @ Indigo Tree Digital</h3>
+                <h3>Client Services Director @ Indigo Tree Digital</h3>
                 <p>
                     I&apos;d be more than happy to act as a reference for Eugene, no problem to give me name out and
                     I&apos;ll be happy to tell them how wonderful Eugene is.
