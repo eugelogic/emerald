@@ -28,24 +28,6 @@ const Work = () => {
                             </Link>
                         </div>
                     </IndexItemSplit>
-                    <IndexItemSplit
-                        slug="work/delparc"
-                        imageSrc="/eumodig-image-placeholder-square-light.jpg"
-                        imageAlt="eumodig-image-placeholder-square-light"
-                        imageWidth="720"
-                        imageHeight="720"
-                        categories="#DESIGN #CODE"
-                        title="delParc"
-                    >
-                        <p>
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                            pariatur.
-                        </p>
-                        <p>
-                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-                            anim id est laborum.
-                        </p>
-                    </IndexItemSplit>
                 </ul>
                 <div className="moreContent">
                     <p>More work items coming soon.</p>
