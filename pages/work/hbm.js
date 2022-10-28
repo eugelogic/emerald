@@ -66,74 +66,75 @@ const HBM = () => {
             </div>
             <div className="container">
                 <p>In order to deliver a well balanced homepage I had to do the following:</p>
-            </div>
-            <div className="colRow">
-                <div className="colHalf">
-                    <Image
-                        className={styles.centerHR}
-                        src="/hbm-homepage-full-height-top-half.jpg"
-                        alt="hbm homepage full height top half"
-                        width={540}
-                        height={999}
-                    />
+                <div className="colRow">
+                    <div className="colHalf">
+                        <Image
+                            className={styles.centerHR}
+                            src="/hbm-homepage-full-height-top-half.jpg"
+                            alt="hbm homepage full height top half"
+                            width={540}
+                            height={999}
+                        />
+                    </div>
+                    <div className="colHalf">
+                        <ul className={styles.stretchList}>
+                            <li>ask the client to come up with a hierarchy of importance for the content</li>
+                            <li>alternate light and dark background banners</li>
+                            <li>stick to a traditional 12 bars grid</li>
+                            <li>
+                                use{' '}
+                                <a
+                                    href="https://avada.theme-fusion.com/element/counter-boxes/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    dynamic counters
+                                </a>{' '}
+                                to bring attention to the data gathered by the client
+                            </li>
+                            <li>make the banners as high as the browser view height on most of the average screens</li>
+                            <li>
+                                introduce of a third colour (pink) in the client&apos;s brand to help making some
+                                messages stand out
+                            </li>
+                            <li>
+                                expoilt the stylish photography of the client&apos;s contractors architecture as
+                                backgrounds
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="colHalf">
-                    <ul className={styles.stretchList}>
-                        <li>ask the client to come up with a hierarchy of importance for the content</li>
-                        <li>alternate light and dark background banners</li>
-                        <li>stick to a traditional 12 bars grid</li>
-                        <li>
-                            use{' '}
-                            <a
-                                href="https://avada.theme-fusion.com/element/counter-boxes/"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                dynamic counters
-                            </a>{' '}
-                            to bring attention to the data gathered by the client
-                        </li>
-                        <li>
-                            introduce of a third colour (pink) in the client&apos;s brand to help making some messages
-                            stand out
-                        </li>
-                        <li>
-                            expoilt the stylish photography of the client&apos;s contractors architecture as backgrounds
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div className="container">
                 <p>Moreover I enhanced the user experience with the following practices:</p>
-            </div>
-            <div className="colRow">
-                <div className="colHalf">
-                    <Image
-                        className={styles.centerHR}
-                        src="/hbm-homepage-full-height-bottom-half.jpg"
-                        alt="hbm homepage full height bottom half"
-                        width={540}
-                        height={1213}
-                    />
+                <div className="colRow">
+                    <div className="colHalf">
+                        <Image
+                            className={styles.centerHR}
+                            src="/hbm-homepage-full-height-bottom-half.jpg"
+                            alt="hbm homepage full height bottom half"
+                            width={540}
+                            height={1213}
+                        />
+                    </div>
+                    <div className="colHalf">
+                        <ul className={styles.stretchList}>
+                            <li>exploit clients&apos; photos to convey a sense of trust when sharing testimonials</li>
+                            <li>
+                                assign a call to action to as many banners as possible to invite the user to interact
+                                with more content across the rest of the website
+                            </li>
+                            <li>create a grid of all staff members to show the extent of the whole team</li>
+                            <li>
+                                make sure accessibility is observed throughout but some area didn&apos;t have enough
+                                colour contrast. Unfortunately the client would not allow for a change of the primary
+                                brand colour
+                            </li>
+                            <li>portrait the in-house app within a smart phone frame</li>
+                            <li>
+                                choose the TrustPilot widgets that would fit nicely around the clients&apos; content
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div className="colHalf">
-                    <ul className={styles.stretchList}>
-                        <li>exploit clients&apos; photos to convey a sense of trust when sharing testimonials</li>
-                        <li>
-                            assign a call to action to as many banners as possible to invite the user to interact with
-                            more content across the rest of the website
-                        </li>
-                        <li>create a grid of all staff members to show the extent of the whole team</li>
-                        <li>
-                            make sure accessibility is observed throughout but some area didn&apos;t have enough colour
-                            contrast. Unfortunately the client would not allow for a change of the primary brand colour
-                        </li>
-                        <li>portrait the in-house app within a smart phone frame</li>
-                        <li>choose the TrustPilot widgets that would fit nicely around the clients&apos; content</li>
-                    </ul>
-                </div>
-            </div>
-            <div className="container">
                 <div className="moreContent">
                     <p>More details about this project coming soon.</p>
                     <p>Want to see more of my output ?</p>
