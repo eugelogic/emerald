@@ -45,7 +45,10 @@ const Playground = ({ plays }) => {
                     </a>
                     .
                 </p>
-                <p>I get inspired by magazines, architecture, music, fashion, art and industrial design.</p>
+                <p>
+                    I get inspired by magazines, architecture, music, fashion, art and industrial design among other
+                    things.
+                </p>
                 <div className="noticeBox">
                     <p>All the playground pages are menuless.</p>
                     <p>
